@@ -1,0 +1,65 @@
+════════════════════════════════════════════════
+  HELEN GREEN WEBSITE — READY TO PUT ONLINE
+════════════════════════════════════════════════
+
+This folder is the complete website, ready to go live.
+Everything is named correctly — just follow the steps.
+
+WHAT'S IN HERE
+  index.html      → the website (opens automatically at your address)
+  content.json    → all the words + the artwork list (edit this to change content)
+  assets/         → the photo files
+  admin/          → the content manager for Helen (turned on later, see Phase 3)
+  support.js      → engine, do not touch
+
+
+──────────────────────────────────────────────
+  PHASE 1 — GET IT ONLINE (about 5 minutes)
+──────────────────────────────────────────────
+
+  1. Make sure you have this whole "deploy" folder saved on your computer.
+  2. Open a browser and go to:   https://app.netlify.com/drop
+  3. Drag this entire "deploy" folder onto that page.
+  4. Wait a few seconds. Netlify gives you a live web address
+     like  https://something-random.netlify.app
+  5. That's it — your site is live. Click "Site settings" to rename
+     it to something nicer, e.g. helen-green.netlify.app
+
+  To update content this way: edit content.json (or add photos to
+  assets/), then drag the folder onto Netlify again. It replaces the
+  old version. Good enough until you're ready for Phase 3.
+
+
+──────────────────────────────────────────────
+  CHANGING CONTENT BY HAND (works right now)
+──────────────────────────────────────────────
+
+  • Add a photo: drop the image file into the assets/ folder.
+  • List it: open content.json, copy an existing artwork line,
+    paste it, change the words between the "quotes".
+  • Keep every value in "double quotes" and keep the commas.
+  • Leave  "image": ""  empty to show a "photo to come" placeholder.
+
+  Full details are in GUIDE.md (in the main project).
+
+
+──────────────────────────────────────────────
+  PHASES 2 & 3 — LETTING HELEN EDIT IT HERSELF
+──────────────────────────────────────────────
+
+  When you want Helen to add photos through a simple form (no files,
+  no code), follow Phases 2 and 3 in GUIDE.md. Short version:
+
+    Phase 2 — put this folder in a free GitHub repository, and connect
+              Netlify to it ("Import from GitHub").
+    Phase 3 — in Netlify, enable Identity (invite-only) + Git Gateway,
+              update the site_url line in admin/config.yml, and invite
+              Helen's email. She then logs in at  your-site/admin
+              and manages everything through forms.
+
+  The admin/ folder is already built and configured — Phase 3 is
+  mostly clicking buttons in Netlify.
+
+
+Questions or design changes? Come back and ask. You handle the
+content; I handle the design.
