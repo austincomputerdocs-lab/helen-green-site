@@ -2,30 +2,134 @@
   "artistName": "Helen Green",
   "tagline": "Folk paintings & mixed media",
   "contactEmail": "hello@helengreenart.com",
-
   "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
-  "portrait": "",
-
-  "mediums": ["Pastels", "Oils", "Watercolors", "Collage"],
-
+  "portrait": "assets/helenprofile.jpg",
+  "mediums": [
+    "Pastels",
+    "Oils",
+    "Watercolors",
+    "Collage"
+  ],
   "artworks": [
-    { "title": "A Murmuration",      "medium": "Collage",     "year": "2023", "size": "24 × 13 in", "image": "assets/birds-collage.jpg",      "description": "A swirl of starlings over a winter field." },
-    { "title": "Summer Schwinn",     "medium": "Collage",     "year": "2022", "size": "18 × 24 in", "image": "assets/bicycle-collage.jpg",    "description": "" },
-    { "title": "Paper Garden",       "medium": "Collage",     "year": "2023", "size": "16 × 20 in", "image": "",                              "description": "" },
-    { "title": "Torn Sky",           "medium": "Collage",     "year": "2021", "size": "12 × 12 in", "image": "",                              "description": "" },
-    { "title": "Field Notes",        "medium": "Collage",     "year": "2020", "size": "20 × 16 in", "image": "",                              "description": "" },
-
-    { "title": "Flags on Main",      "medium": "Watercolors", "year": "2021", "size": "14 × 11 in", "image": "assets/flags-watercolor.jpg",   "description": "Painted along the parade route one summer afternoon." },
-    { "title": "Morning Hare",       "medium": "Watercolors", "year": "2022", "size": "10 × 8 in",  "image": "",                              "description": "" },
-    { "title": "River Bend",         "medium": "Watercolors", "year": "2020", "size": "16 × 12 in", "image": "",                              "description": "" },
-    { "title": "Orchard Light",      "medium": "Watercolors", "year": "2023", "size": "12 × 9 in",  "image": "",                              "description": "" },
-
-    { "title": "Red Barn, Late Day", "medium": "Oils",        "year": "2022", "size": "24 × 30 in", "image": "",                              "description": "" },
-    { "title": "Hillside in October","medium": "Oils",        "year": "2021", "size": "20 × 24 in", "image": "",                              "description": "" },
-    { "title": "Still Pond",         "medium": "Oils",        "year": "2023", "size": "18 × 18 in", "image": "",                              "description": "" },
-
-    { "title": "Hare in Tall Grass", "medium": "Pastels",     "year": "2023", "size": "11 × 14 in", "image": "",                              "description": "" },
-    { "title": "Two Rabbits",        "medium": "Pastels",     "year": "2022", "size": "9 × 12 in",  "image": "",                              "description": "" },
-    { "title": "Meadow Edge",        "medium": "Pastels",     "year": "2021", "size": "14 × 11 in", "image": "",                              "description": "" }
+    {
+      "title": "A Murmuration",
+      "medium": "Collage",
+      "year": "2023",
+      "size": "24 × 13 in",
+      "image": "assets/birds-collage.jpg",
+      "description": "A swirl of starlings over a winter field."
+    },
+    {
+      "title": "Summer Schwinn",
+      "medium": "Collage",
+      "year": "2022",
+      "size": "18 × 24 in",
+      "image": "assets/bicycle-collage.jpg",
+      "description": ""
+    },
+    {
+      "title": "Paper Garden",
+      "medium": "Collage",
+      "year": "2023",
+      "size": "16 × 20 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Torn Sky",
+      "medium": "Collage",
+      "year": "2021",
+      "size": "12 × 12 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Field Notes",
+      "medium": "Collage",
+      "year": "2020",
+      "size": "20 × 16 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Flags on Main",
+      "medium": "Watercolors",
+      "year": "2021",
+      "size": "14 × 11 in",
+      "image": "assets/flags-watercolor.jpg",
+      "description": "Painted along the parade route one summer afternoon."
+    },
+    {
+      "title": "Morning Hare",
+      "medium": "Watercolors",
+      "year": "2022",
+      "size": "10 × 8 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "River Bend",
+      "medium": "Watercolors",
+      "year": "2020",
+      "size": "16 × 12 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Orchard Light",
+      "medium": "Watercolors",
+      "year": "2023",
+      "size": "12 × 9 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Red Barn, Late Day",
+      "medium": "Oils",
+      "year": "2022",
+      "size": "24 × 30 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Hillside in October",
+      "medium": "Oils",
+      "year": "2021",
+      "size": "20 × 24 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Still Pond",
+      "medium": "Oils",
+      "year": "2023",
+      "size": "18 × 18 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Hare in Tall Grass",
+      "medium": "Pastels",
+      "year": "2023",
+      "size": "11 × 14 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Two Rabbits",
+      "medium": "Pastels",
+      "year": "2022",
+      "size": "9 × 12 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Meadow Edge",
+      "medium": "Pastels",
+      "year": "2021",
+      "size": "14 × 11 in",
+      "image": "",
+      "description": ""
+    }
   ]
 }
