@@ -8,7 +8,7 @@ backend:
 media_folder: "assets"   # where uploaded photos are stored in the project
 public_folder: "assets"  # the path the website uses to find them
 
-site_url: https://jocular-macaron-c43cda.netlify.app/   # <-- change after you deploy
+site_url: https://helen-green-art.netlify.app   # <-- change after you deploy
 
 collections:
   - name: "site"
