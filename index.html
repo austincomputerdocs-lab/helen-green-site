@@ -20,7 +20,7 @@
   /* ── Mobile responsive fixes ── */
   @media (max-width: 640px) {
     /* Outer wrapper: remove padding so site fills screen edge to edge */
-    .hg-outer { padding: 0 !important; background: #F4EFE5 !important; }
+    .hg-outer { padding: 0 !important; background: var(--card) !important; }
     .hg-card  { border-radius: 0 !important; box-shadow: none !important; border: none !important; }
 
     /* Masthead: stack name above contact, reduce font */
@@ -33,6 +33,7 @@
     .hg-artist-name { font-size: 36px !important; line-height: 1 !important; }
     .hg-tagline     { font-size: 12px !important; letter-spacing: 2px !important; margin-top: 6px !important; }
     .hg-contact     { font-size: 11px !important; letter-spacing: 1.5px !important; align-self: flex-end !important; }
+    .hg-corner      { align-self: flex-end !important; flex-direction: row !important; align-items: center !important; gap: 14px !important; }
 
     /* Nav: compress padding, smaller text, allow wrapping */
     .hg-nav         { margin: 0 20px !important; }
@@ -61,28 +62,31 @@
 </style>
 </helmet>
 
-<div class="hg-outer" style="background:#E5E1DA; min-height:100vh; padding:40px; font-family:'EB Garamond', Georgia, serif;">
- <div class="hg-card" style="max-width:1180px; margin:0 auto; background:#F4EFE5; border-radius:4px; box-shadow:0 24px 60px -28px rgba(40,34,28,0.35); border:1px solid #E2DACB; position:relative; overflow:hidden;">
+<div class="hg-outer" style="{{ rootStyle }}">
+ <div class="hg-card" style="max-width:1180px; margin:0 auto; background:var(--card); border-radius:4px; box-shadow:0 24px 60px -28px rgba(20,16,12,0.4); border:1px solid var(--line); position:relative; overflow:hidden;">
 
   <!-- masthead -->
   <div class="hg-masthead" style="display:flex; justify-content:space-between; align-items:flex-end; padding:30px 60px 26px;">
     <div>
-      <div class="hg-artist-name" style="font-family:'Cormorant Garamond',serif; font-weight:600; font-size:54px; line-height:0.9; letter-spacing:1px; color:#26221D;">{{ artistName }}</div>
-      <div class="hg-tagline" style="font-family:'EB Garamond',serif; font-size:14px; letter-spacing:3px; text-transform:uppercase; color:#9A8C72; margin-top:10px;">{{ tagline }}</div>
+      <div class="hg-artist-name" style="font-family:'Cormorant Garamond',serif; font-weight:600; font-size:54px; line-height:0.9; letter-spacing:1px; color:var(--ink);">{{ artistName }}</div>
+      <div class="hg-tagline" style="font-family:'EB Garamond',serif; font-size:14px; letter-spacing:3px; text-transform:uppercase; color:var(--sub); margin-top:10px;">{{ tagline }}</div>
     </div>
-    <div class="hg-contact" onClick="{{ openAbout }}" style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:#8A7E6A; cursor:pointer; padding-bottom:4px; border-bottom:1px solid #D4C9B5;">Contact</div>
+    <div class="hg-corner" style="display:flex; flex-direction:column; align-items:flex-end; gap:12px;">
+      {{ paletteIcon }}
+      <div class="hg-contact" onClick="{{ openAbout }}" style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--sub); cursor:pointer; padding-bottom:4px; border-bottom:1px solid var(--line);">Contact</div>
+    </div>
   </div>
 
   <!-- nav -->
-  <div class="hg-nav" style="position:relative; border-top:1px solid #DCD3C2; border-bottom:1px solid #DCD3C2; margin:0 60px;">
+  <div class="hg-nav" style="position:relative; border-top:1px solid var(--line); border-bottom:1px solid var(--line); margin:0 60px;">
     <div class="hg-nav-row" style="display:flex; gap:40px; padding:16px 2px; font-size:14px; letter-spacing:2.5px; text-transform:uppercase;">
       <span onClick="{{ toggleDropdown }}" style="{{ artworksStyle }}">Artworks <span style="font-size:9px;">▼</span></span>
-      <span onClick="{{ openAbout }}" style="color:#3C362E; cursor:pointer;">About</span>
-      <span style="color:#3C362E; cursor:pointer;">Exhibitions</span>
-      <span style="color:#3C362E; cursor:pointer;">Commissions</span>
+      <span onClick="{{ openAbout }}" style="color:var(--ink); cursor:pointer;">About</span>
+      <span style="color:var(--ink); cursor:pointer;">Exhibitions</span>
+      <span style="color:var(--ink); cursor:pointer;">Commissions</span>
     </div>
     <sc-if value="{{ dropdownOpen }}" hint-placeholder-val="{{ true }}">
-      <div class="hg-dropdown" style="position:absolute; top:100%; left:-1px; width:218px; background:#FBF8F1; border:1px solid #DCD3C2; border-top:none; box-shadow:0 18px 34px -20px rgba(40,34,28,0.4); z-index:20;">
+      <div class="hg-dropdown" style="position:absolute; top:100%; left:-1px; width:218px; background:var(--panel); border:1px solid var(--line); border-top:none; box-shadow:0 18px 34px -20px rgba(20,16,12,0.45); z-index:20;">
         <sc-for list="{{ mediums }}" as="m" hint-placeholder-count="4">
           <div onClick="{{ m.onClick }}" style="{{ m.rowStyle }}">{{ m.name }}</div>
         </sc-for>
@@ -96,27 +100,27 @@
     <div class="hg-hero-wrap" style="padding:54px 60px 28px; display:flex; flex-direction:column; align-items:center;">
       {{ heroVisual }}
       <div style="text-align:center; margin-top:24px;">
-        <div style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:30px; color:#2B2722;">{{ heroTitle }}</div>
-        <div style="font-size:14px; letter-spacing:2px; text-transform:uppercase; color:#9A8C72; margin-top:6px;">{{ heroMeta }}</div>
-        <div style="max-width:460px; margin:14px auto 0; font-size:16px; line-height:1.6; color:#6B6358;">{{ heroDescription }}</div>
+        <div class="hg-hero-title" style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:30px; color:var(--ink);">{{ heroTitle }}</div>
+        <div class="hg-hero-meta" style="font-size:14px; letter-spacing:2px; text-transform:uppercase; color:var(--sub); margin-top:6px;">{{ heroMeta }}</div>
+        <div class="hg-hero-desc" style="max-width:460px; margin:14px auto 0; font-size:16px; line-height:1.6; color:var(--body);">{{ heroDescription }}</div>
       </div>
     </div>
 
     <!-- filmstrip -->
     <div class="hg-filmstrip" style="padding:18px 60px 50px;">
       <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
-        <span style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:20px; color:#4A4339;">{{ medium }}</span>
-        <span style="flex:1; height:1px; background:#DCD3C2;"></span>
-        <span onClick="{{ showAll }}" style="font-size:13px; letter-spacing:1px; color:#A8702E; border-bottom:1px solid #D9C3A4; padding-bottom:2px; cursor:pointer;">{{ viewAllLabel }}</span>
+        <span style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:20px; color:var(--ink);">{{ medium }}</span>
+        <span style="flex:1; height:1px; background:var(--line);"></span>
+        <span onClick="{{ showAll }}" style="font-size:13px; letter-spacing:1px; color:var(--accent); border-bottom:1px solid var(--accentLine); padding-bottom:2px; cursor:pointer;">{{ viewAllLabel }}</span>
       </div>
       <div style="display:flex; align-items:center; gap:18px;">
-        <div onClick="{{ prevWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid #CBC0AC; background:#FBF8F1; display:flex; align-items:center; justify-content:center; flex:none; color:#6B6358; font-size:18px; cursor:pointer;">‹</div>
+        <div onClick="{{ prevWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; flex:none; color:var(--body); font-size:18px; cursor:pointer;">‹</div>
         <div style="display:flex; gap:14px; flex:1; flex-wrap:wrap;">
           <sc-for list="{{ thumbs }}" as="t" hint-placeholder-count="5">
             <div onClick="{{ t.onClick }}" style="{{ t.frameStyle }}">{{ t.visual }}</div>
           </sc-for>
         </div>
-        <div onClick="{{ nextWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid #CBC0AC; background:#FBF8F1; display:flex; align-items:center; justify-content:center; flex:none; color:#6B6358; font-size:18px; cursor:pointer;">›</div>
+        <div onClick="{{ nextWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; flex:none; color:var(--body); font-size:18px; cursor:pointer;">›</div>
       </div>
     </div>
    </div>
@@ -126,16 +130,16 @@
   <sc-if value="{{ isAll }}">
    <div>
     <div class="hg-all-header" style="padding:34px 60px 18px; display:flex; align-items:center; gap:16px;">
-      <div style="font-family:'Cormorant Garamond',serif; font-size:30px; color:#2B2722;">{{ medium }}</div>
-      <span style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:#A99B82;">{{ countLabel }}</span>
+      <div style="font-family:'Cormorant Garamond',serif; font-size:30px; color:var(--ink);">{{ medium }}</div>
+      <span style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--muted);">{{ countLabel }}</span>
       <span style="flex:1;"></span>
-      <span onClick="{{ showSingle }}" style="font-size:13px; letter-spacing:1px; color:#A8702E; border-bottom:1px solid #D9C3A4; padding-bottom:2px; cursor:pointer;">↑ Back to single view</span>
+      <span onClick="{{ showSingle }}" style="font-size:13px; letter-spacing:1px; color:var(--accent); border-bottom:1px solid var(--accentLine); padding-bottom:2px; cursor:pointer;">↑ Back to single view</span>
     </div>
     <div class="hg-all-grid" style="max-height:620px; overflow-y:auto; padding:14px 60px 56px; display:flex; flex-direction:column; gap:46px;">
       <sc-for list="{{ allWorks }}" as="w" hint-placeholder-count="3">
         <div style="display:flex; flex-direction:column; align-items:center;">
           {{ w.visual }}
-          <div style="text-align:center; margin-top:18px;"><div style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:26px; color:#2B2722;">{{ w.title }}</div><div style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:#9A8C72; margin-top:5px;">{{ w.meta }}</div></div>
+          <div style="text-align:center; margin-top:18px;"><div style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:26px; color:var(--ink);">{{ w.title }}</div><div style="font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--sub); margin-top:5px;">{{ w.meta }}</div></div>
         </div>
       </sc-for>
     </div>
@@ -145,16 +149,16 @@
   <!-- ===== ABOUT OVERLAY ===== -->
   <sc-if value="{{ aboutOpen }}">
    <div>
-    <div onClick="{{ closeAbout }}" style="position:absolute; inset:0; background:rgba(38,34,29,0.42); z-index:40;"></div>
-    <div class="hg-about-panel" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:740px; max-width:88%; background:#FBF8F1; box-shadow:0 40px 80px -30px rgba(40,34,28,0.6); border:1px solid #E7DFCF; display:flex; overflow:hidden; z-index:41;">
+    <div onClick="{{ closeAbout }}" style="position:absolute; inset:0; background:rgba(20,16,12,0.5); z-index:40;"></div>
+    <div class="hg-about-panel" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:740px; max-width:88%; background:var(--panel); box-shadow:0 40px 80px -30px rgba(20,16,12,0.65); border:1px solid var(--line); display:flex; overflow:hidden; z-index:41;">
       <div class="hg-about-portrait" style="width:230px; flex:none;">{{ aboutPortrait }}</div>
       <div style="flex:1; padding:44px 46px;">
-        <div style="font-size:12px; letter-spacing:3px; text-transform:uppercase; color:#A8702E; margin-bottom:14px;">About the artist</div>
-        <div style="font-family:'Cormorant Garamond',serif; font-size:34px; color:#26221D; line-height:1.05; margin-bottom:18px;">{{ artistName }}</div>
-        <p style="font-size:17px; line-height:1.65; color:#5C5448; margin:0 0 18px;">{{ bio }}</p>
-        <div style="font-size:14px; letter-spacing:1px; color:#8A7E6A;">{{ contactEmail }}</div>
+        <div style="font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--accent); margin-bottom:14px;">About the artist</div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:34px; color:var(--ink); line-height:1.05; margin-bottom:18px;">{{ artistName }}</div>
+        <p style="font-size:17px; line-height:1.65; color:var(--body); margin:0 0 18px;">{{ bio }}</p>
+        <div style="font-size:14px; letter-spacing:1px; color:var(--sub);">{{ contactEmail }}</div>
       </div>
-      <div onClick="{{ closeAbout }}" style="position:absolute; top:16px; right:18px; width:34px; height:34px; border-radius:50%; border:1px solid #DCD3C2; background:#FBF8F1; display:flex; align-items:center; justify-content:center; color:#6B6358; font-size:16px; cursor:pointer;">✕</div>
+      <div onClick="{{ closeAbout }}" style="position:absolute; top:16px; right:18px; width:34px; height:34px; border-radius:50%; border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; color:var(--body); font-size:16px; cursor:pointer;">✕</div>
     </div>
    </div>
   </sc-if>
@@ -164,11 +168,53 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 class Component extends DCLogic {
-  state = { content: null, medium: null, workId: null, dropdownOpen: false, aboutOpen: false, view: 'single' };
+  state = {
+    content: null, medium: null, workId: null, dropdownOpen: false, aboutOpen: false, view: 'single',
+    // Easter-egg theme switcher — remembers the last pick across reloads.
+    theme: (function(){ try { return localStorage.getItem('hg-theme') || 'original'; } catch(e){ return 'original'; } })()
+  };
+
+  // ── Color themes, each sampled from one of Helen's paintings ──
+  // 'original' is the default warm look; the palette icon cycles through the rest.
+  palettes(){
+    return {
+      original:  { page:'#E5E1DA', card:'#F4EFE5', panel:'#FBF8F1', ink:'#26221D', sub:'#9A8C72', body:'#6B6358',
+                   line:'#DCD3C2', accent:'#A8702E', accentSoft:'#F4ECDC', accentLine:'#D9C3A4', muted:'#A99B82',
+                   hatchA:'#EAE2D3', hatchB:'#E1D8C6' },
+      sky:       { page:'#C2D9E8', card:'#ECF3F7', panel:'#F8FBFD', ink:'#1E2D38', sub:'#6F8C73', body:'#4A5A52',
+                   line:'#CDDEE8', accent:'#C2941B', accentSoft:'#F2E7C6', accentLine:'#DBC79A', muted:'#9DB1A2',
+                   hatchA:'#E3ECF1', hatchB:'#D5E3EB' },
+      midnight:  { page:'#0C1830', card:'#142440', panel:'#1B2E4E', ink:'#ECF3F4', sub:'#84AAB2', body:'#C4D2DA',
+                   line:'#2A3F61', accent:'#E2B73C', accentSoft:'#243C61', accentLine:'#8A7430', muted:'#6E89A2',
+                   hatchA:'#1C2E4C', hatchB:'#233861' },
+      cafe:      { page:'#E7AEA6', card:'#FBEFE6', panel:'#FFF7F0', ink:'#7A2E3A', sub:'#B5736A', body:'#6E4A47',
+                   line:'#F0D9CC', accent:'#C8324B', accentSoft:'#F6DBD6', accentLine:'#E3A9A0', muted:'#C29A92',
+                   hatchA:'#F3E0D5', hatchB:'#EBD0C2' },
+      lagoon:    { page:'#1C5E63', card:'#DCEFE8', panel:'#EFF8F4', ink:'#15403A', sub:'#5E8F7E', body:'#3C5F56',
+                   line:'#CBE3DA', accent:'#1E8E72', accentSoft:'#D7ECD8', accentLine:'#A9D2B5', muted:'#9BBBAE',
+                   hatchA:'#E0F0E9', hatchB:'#D2E8DF' },
+      field:     { page:'#AEB6B4', card:'#F2EBDD', panel:'#FAF5EA', ink:'#2B2620', sub:'#8A7A5E', body:'#594F3F',
+                   line:'#E2D8C2', accent:'#B0772E', accentSoft:'#EBDFC6', accentLine:'#D6BE92', muted:'#A99E86',
+                   hatchA:'#ECE3D0', hatchB:'#DFD3BB' },
+      blush:     { page:'#E8DCE2', card:'#F6F1EE', panel:'#FCFAF8', ink:'#2E4F50', sub:'#9A7E88', body:'#5C5258',
+                   line:'#E6DAD0', accent:'#D27E96', accentSoft:'#F0DDE0', accentLine:'#E0BAC4', muted:'#B6A6AE',
+                   hatchA:'#EFE6E6', hatchB:'#E3DAD9' },
+      autumn:    { page:'#B07A45', card:'#F3E9D8', panel:'#FBF4E7', ink:'#3A2A1C', sub:'#8A6A45', body:'#5C4733',
+                   line:'#E4D6BE', accent:'#A8451E', accentSoft:'#EBDCC2', accentLine:'#D6B98C', muted:'#B09A78',
+                   hatchA:'#EDE1CC', hatchB:'#E1D2B6' }
+    };
+  }
+  // Order the easter-egg icon cycles through:
+  themeOrder(){ return ['original','sky','midnight','cafe','lagoon','field','blush','autumn']; }
+  cycleTheme(){
+    const order = this.themeOrder();
+    const i = order.indexOf(this.state.theme);
+    const next = order[(i + 1) % order.length];
+    try { localStorage.setItem('hg-theme', next); } catch(e){}
+    this.setState({ theme: next });
+  }
 
   componentDidMount(){
-    // The site's content lives in content.json — fetched fresh on every load,
-    // so editing that file (or having a CMS edit it) updates the site with no code changes.
     fetch('content.json', { cache: 'no-store' })
       .then(r => r.json())
       .then(content => {
@@ -182,7 +228,6 @@ class Component extends DCLogic {
       .catch(err => { console.error('Could not load content.json', err); this.setState({ content: { error: true } }); });
   }
 
-  // Each artwork's id is simply its position in the content.json list.
   artworks(){ return (this.state.content && this.state.content.artworks) || []; }
   mediumList(){ return (this.state.content && this.state.content.mediums) || ['Pastels','Oils','Watercolors','Collage']; }
   mediumTag(m){ return ({Collage:'collage', Watercolors:'w/c', Oils:'oil', Pastels:'pastel'})[m] || 'work'; }
@@ -204,8 +249,29 @@ class Component extends DCLogic {
     const s = this.state;
     const c = s.content || {};
     const h = React.createElement;
-    const hatch = (n) => `repeating-linear-gradient(45deg,#EAE2D3,#EAE2D3 ${n}px,#E1D8C6 ${n}px,#E1D8C6 ${n*2}px)`;
-    const frame = (pad, child) => h('div', { style:{ background:'#FBF8F1', padding:pad, boxShadow:'0 30px 50px -30px rgba(40,34,28,0.5)', border:'1px solid #E7DFCF' } }, child);
+
+    const pal = this.palettes()[s.theme] || this.palettes().original;
+    const vars = Object.keys(pal).map(k => `--${k}:${pal[k]}`).join('; ');
+    const rootStyle = `${vars}; background:var(--page); min-height:100vh; padding:40px; font-family:'EB Garamond', Georgia, serif;`;
+
+    // Easter-egg palette icon (style A — classic line palette). Cycles the theme on click.
+    const paletteIcon = h('div', {
+        onClick: () => this.cycleTheme(),
+        title: '',
+        style:{ width:'18px', height:'18px', cursor:'pointer', color:'var(--accent)', lineHeight:0 }
+      },
+      h('svg', { viewBox:'0 0 48 48', width:'100%', height:'100%', fill:'none' },
+        h('path', { d:'M24 5C12.4 5 4 12.7 4 22.4c0 6.7 5 10.6 10.7 10.6 3.2 0 4.6 1.2 4.6 3.4 0 1-.5 1.9-1 2.7-.5.9-1 1.8-1 3 0 .9.9 2.9 6.7 2.9C34.4 47 44 39 44 27.2 44 14.6 35 5 24 5Z',
+          stroke:'currentColor', strokeWidth:'2.4', strokeLinejoin:'round' }),
+        h('circle', { cx:'13.5', cy:'21', r:'2.7', fill:'currentColor' }),
+        h('circle', { cx:'22', cy:'15', r:'2.7', fill:'currentColor' }),
+        h('circle', { cx:'31.5', cy:'16.5', r:'2.7', fill:'currentColor' }),
+        h('circle', { cx:'35.5', cy:'25.5', r:'2.7', fill:'currentColor' })
+      )
+    );
+
+    const hatch = (n) => `repeating-linear-gradient(45deg,var(--hatchA),var(--hatchA) ${n}px,var(--hatchB) ${n}px,var(--hatchB) ${n*2}px)`;
+    const frame = (pad, child) => h('div', { style:{ background:'var(--panel)', padding:pad, boxShadow:'0 30px 50px -30px rgba(20,16,12,0.55)', border:'1px solid var(--line)' } }, child);
 
     const all = this.artworks().map((w,i)=>({ ...w, id:i }));
     const list = all.filter(w => w.medium === s.medium);
@@ -214,13 +280,13 @@ class Component extends DCLogic {
     const heroVisual = current && current.image
       ? frame('22px', h('img', { src: current.image, alt: current.title, style:{ display:'block', width:'640px', maxWidth:'100%', height:'auto' } }))
       : frame('22px', h('div', { style:{ width:'560px', maxWidth:'100%', height:'380px', background:hatch(9), display:'flex', alignItems:'center', justifyContent:'center' } },
-          h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', letterSpacing:'1px', color:'#A99B82' } }, (current ? current.title : 'Loading') + ' — photo to come')));
+          h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', letterSpacing:'1px', color:'var(--muted)' } }, (current ? current.title : 'Loading') + ' — photo to come')));
 
     const mediums = this.mediumList().map(name => ({
       name,
       onClick: () => this.selectMedium(name),
-      rowStyle: `padding:14px 24px; font-family:'Cormorant Garamond',serif; font-size:21px; cursor:pointer; border-bottom:1px solid #EDE6D8; display:flex; justify-content:space-between; align-items:center; `
-        + (name === s.medium ? 'color:#A8702E; background:#F4ECDC;' : 'color:#4A4339; background:transparent;')
+      rowStyle: `padding:14px 24px; font-family:'Cormorant Garamond',serif; font-size:21px; cursor:pointer; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; `
+        + (name === s.medium ? 'color:var(--accent); background:var(--accentSoft);' : 'color:var(--ink); background:transparent;')
     }));
 
     const thumbs = list.map(w => ({
@@ -228,26 +294,27 @@ class Component extends DCLogic {
       visual: w.image
         ? h('img', { src: w.image, style:{ width:'100%', height:'100%', objectFit:'cover', display:'block' } })
         : h('div', { style:{ width:'100%', height:'100%', background:hatch(7), display:'flex', alignItems:'center', justifyContent:'center' } },
-            h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'9px', color:'#A99B82' } }, this.mediumTag(w.medium))),
+            h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'9px', color:'var(--muted)' } }, this.mediumTag(w.medium))),
       frameStyle: `width:96px; height:96px; padding:2px; flex:none; cursor:pointer; `
-        + (w.id === (current && current.id) ? 'border:2px solid #A8702E;' : 'border:1px solid #DCD3C2;')
+        + (w.id === (current && current.id) ? 'border:2px solid var(--accent);' : 'border:1px solid var(--line);')
     }));
 
     const allWorks = list.map(w => ({
       visual: w.image
         ? frame('20px', h('img', { src: w.image, style:{ display:'block', width:'600px', maxWidth:'100%', height:'auto' } }))
         : frame('20px', h('div', { style:{ width:'560px', maxWidth:'100%', height:'320px', background:hatch(9), display:'flex', alignItems:'center', justifyContent:'center' } },
-            h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', color:'#A99B82' } }, 'photo to come'))),
+            h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', color:'var(--muted)' } }, 'photo to come'))),
       title: w.title, meta: [w.year, w.size].filter(Boolean).join(' · ')
     }));
 
     const aboutPortrait = c.portrait
       ? h('img', { src: c.portrait, alt: c.artistName, style:{ width:'100%', height:'100%', objectFit:'cover', display:'block' } })
       : h('div', { style:{ width:'100%', height:'100%', minHeight:'260px', background:hatch(8), display:'flex', alignItems:'center', justifyContent:'center' } },
-          h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'10px', color:'#9A8C72', textAlign:'center', lineHeight:1.6 } }, 'her photo here'));
+          h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'10px', color:'var(--muted)', textAlign:'center', lineHeight:1.6 } }, 'her photo here'));
 
     return {
-      artistName: c.artistName || 'Helen Green',
+      rootStyle, paletteIcon,
+      artistName: c.artistName || 'Helen Faythe Green',
       tagline: c.tagline || '',
       bio: c.bio || '',
       contactEmail: c.contactEmail || '',
@@ -263,7 +330,7 @@ class Component extends DCLogic {
       heroDescription: current ? (current.description || '') : '',
       countLabel: `— ${list.length} works`,
       viewAllLabel: `View all ${list.length} works ↓`,
-      artworksStyle: 'color:#A8702E; cursor:pointer; display:flex; align-items:center; gap:7px;',
+      artworksStyle: 'color:var(--accent); cursor:pointer; display:flex; align-items:center; gap:7px;',
       toggleDropdown: () => this.setState(st => ({ dropdownOpen: !st.dropdownOpen })),
       openAbout: () => this.setState({ aboutOpen: true, dropdownOpen: false }),
       closeAbout: () => this.setState({ aboutOpen: false }),
