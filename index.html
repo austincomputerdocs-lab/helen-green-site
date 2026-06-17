@@ -163,6 +163,25 @@
    </div>
   </sc-if>
 
+  <!-- ===== LIGHTBOX / ZOOM ===== -->
+  <sc-if value="{{ lightboxOpen }}">
+   <div>
+    <div onClick="{{ closeLightbox }}" style="position:fixed; inset:0; background:rgba(18,16,14,0.93); z-index:60;"></div>
+    <div onWheel="{{ onWheel }}" style="position:fixed; inset:0; z-index:61; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+      {{ lightboxImg }}
+    </div>
+    <div style="position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:62; display:flex; align-items:center; gap:4px; background:rgba(24,21,18,0.86); border:1px solid rgba(255,255,255,0.15); border-radius:44px; padding:7px 9px; box-shadow:0 18px 40px -16px rgba(0,0,0,0.6);">
+      <div onClick="{{ zoomOut }}" style="width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; color:#EDE7DD; font-size:22px; font-family:'EB Garamond',serif;">−</div>
+      <div style="min-width:58px; text-align:center; color:#EDE7DD; font-size:13px; letter-spacing:1px;">{{ zoomLabel }}</div>
+      <div onClick="{{ zoomIn }}" style="width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; color:#EDE7DD; font-size:22px; font-family:'EB Garamond',serif;">+</div>
+      <div onClick="{{ resetZoom }}" style="padding:0 14px; height:38px; display:flex; align-items:center; justify-content:center; cursor:pointer; color:#C9C0B2; font-size:11px; letter-spacing:2px; text-transform:uppercase;">Reset</div>
+      <div style="width:1px; height:22px; background:rgba(255,255,255,0.18);"></div>
+      <div onClick="{{ closeLightbox }}" style="width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; color:#EDE7DD; font-size:16px;">✕</div>
+    </div>
+    <div style="position:fixed; top:24px; left:50%; transform:translateX(-50%); z-index:62; color:rgba(237,231,221,0.62); font-size:12px; letter-spacing:2px; text-transform:uppercase; font-family:'EB Garamond',serif;">{{ lightboxCaption }}</div>
+   </div>
+  </sc-if>
+
  </div>
 </div>
 </x-dc>
@@ -170,6 +189,7 @@
 class Component extends DCLogic {
   state = {
     content: null, medium: null, workId: null, dropdownOpen: false, aboutOpen: false, view: 'single',
+    lightboxOpen: false, zoom: 1, panX: 0, panY: 0,
     // Easter-egg theme switcher — remembers the last pick across reloads.
     theme: (function(){ try { return localStorage.getItem('hg-theme') || 'original'; } catch(e){ return 'original'; } })()
   };
@@ -215,6 +235,14 @@ class Component extends DCLogic {
   }
 
   componentDidMount(){
+    this._onKey = (e) => {
+      if (!this.state.lightboxOpen) return;
+      if (e.key === 'Escape') this.closeLightbox();
+      else if (e.key === '+' || e.key === '=') this.zoomIn();
+      else if (e.key === '-' || e.key === '_') this.zoomOut();
+      else if (e.key === '0') this.resetZoom();
+    };
+    window.addEventListener('keydown', this._onKey);
     fetch('content.json', { cache: 'no-store' })
       .then(r => r.json())
       .then(content => {
@@ -226,6 +254,26 @@ class Component extends DCLogic {
         });
       })
       .catch(err => { console.error('Could not load content.json', err); this.setState({ content: { error: true } }); });
+  }
+
+  componentWillUnmount(){ if (this._onKey) window.removeEventListener('keydown', this._onKey); }
+
+  // ── Lightbox / zoom ──
+  openLightbox(){ this.setState({ lightboxOpen: true, zoom: 1, panX: 0, panY: 0 }); }
+  closeLightbox(){ this._dragging = false; this.setState({ lightboxOpen: false }); }
+  zoomIn(){ this.setState(st => ({ zoom: Math.min(5, +(st.zoom + 0.5).toFixed(2)) })); }
+  zoomOut(){ this.setState(st => { const z = Math.max(1, +(st.zoom - 0.5).toFixed(2)); return z <= 1 ? { zoom: 1, panX: 0, panY: 0 } : { zoom: z }; }); }
+  resetZoom(){ this.setState({ zoom: 1, panX: 0, panY: 0 }); }
+  onWheel(e){ const dir = e.deltaY < 0 ? 0.3 : -0.3; this.setState(st => { const z = Math.min(5, Math.max(1, +(st.zoom + dir).toFixed(2))); return z <= 1 ? { zoom: 1, panX: 0, panY: 0 } : { zoom: z }; }); }
+  startDrag(e){
+    if (this.state.zoom <= 1) return;
+    e.preventDefault();
+    this._dragging = true;
+    const sx = e.clientX, sy = e.clientY, px = this.state.panX, py = this.state.panY;
+    const move = (ev) => { this.setState({ panX: px + (ev.clientX - sx), panY: py + (ev.clientY - sy) }); };
+    const up = () => { this._dragging = false; window.removeEventListener('mousemove', move); window.removeEventListener('mouseup', up); this.forceUpdate(); };
+    window.addEventListener('mousemove', move); window.addEventListener('mouseup', up);
+    this.forceUpdate();
   }
 
   artworks(){ return (this.state.content && this.state.content.artworks) || []; }
@@ -278,7 +326,7 @@ class Component extends DCLogic {
     const current = all.find(w => w.id === s.workId) || list[0];
 
     const heroVisual = current && current.image
-      ? frame('22px', h('img', { src: current.image, alt: current.title, style:{ display:'block', width:'640px', maxWidth:'100%', height:'auto' } }))
+      ? frame('22px', h('img', { src: current.image, alt: current.title, onClick: () => this.openLightbox(), style:{ display:'block', width:'640px', maxWidth:'100%', height:'auto', cursor:'zoom-in' } }))
       : frame('22px', h('div', { style:{ width:'560px', maxWidth:'100%', height:'380px', background:hatch(9), display:'flex', alignItems:'center', justifyContent:'center' } },
           h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', letterSpacing:'1px', color:'var(--muted)' } }, (current ? current.title : 'Loading') + ' — photo to come')));
 
@@ -312,8 +360,30 @@ class Component extends DCLogic {
       : h('div', { style:{ width:'100%', height:'100%', minHeight:'260px', background:hatch(8), display:'flex', alignItems:'center', justifyContent:'center' } },
           h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'10px', color:'var(--muted)', textAlign:'center', lineHeight:1.6 } }, 'her photo here'));
 
+    const lightboxImg = current && current.image ? h('img', {
+      src: current.image, alt: current.title, draggable: false,
+      onMouseDown: (e) => this.startDrag(e),
+      style: {
+        maxWidth: '92vw', maxHeight: '82vh', display: 'block',
+        transform: `translate(${s.panX}px, ${s.panY}px) scale(${s.zoom})`,
+        transition: this._dragging ? 'none' : 'transform 0.16s ease',
+        cursor: s.zoom > 1 ? 'grab' : 'auto', userSelect: 'none',
+        boxShadow: '0 30px 90px -20px rgba(0,0,0,0.7)'
+      }
+    }) : null;
+
     return {
       rootStyle, paletteIcon,
+      lightboxOpen: s.lightboxOpen,
+      lightboxImg,
+      zoomLabel: `${Math.round(s.zoom * 100)}%`,
+      lightboxCaption: current ? [current.title, current.year].filter(Boolean).join(' · ') : '',
+      openLightbox: () => this.openLightbox(),
+      closeLightbox: () => this.closeLightbox(),
+      zoomIn: () => this.zoomIn(),
+      zoomOut: () => this.zoomOut(),
+      resetZoom: () => this.resetZoom(),
+      onWheel: (e) => this.onWheel(e),
       artistName: c.artistName || 'Helen Faythe Green',
       tagline: c.tagline || '',
       bio: c.bio || '',
