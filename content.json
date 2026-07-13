@@ -18,8 +18,7 @@
       "year": "2023",
       "size": "24 × 13 in",
       "image": "assets/birds-collage.jpg",
-      "description": "A swirl of starlings over a winter field.",
-      "sold": true
+      "description": "A swirl of starlings over a winter field."
     },
     {
       "title": "Summer Schwinn",
@@ -140,6 +139,1599 @@
       "size": "12x12",
       "image": "assets/image.jpg",
       "description": "Test "
+    },
+    {
+      "title": "A Private Conversation",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/a-private-conversation.jpg",
+      "description": ""
+    },
+    {
+      "title": "Abstract Landscape",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/abstract-landscape.jpg",
+      "description": ""
+    },
+    {
+      "title": "American Bike",
+      "medium": "Collage",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/american-bike.jpg",
+      "description": ""
+    },
+    {
+      "title": "Angel in a cabinet",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/angel-in-a-cabinet.jpg",
+      "description": ""
+    },
+    {
+      "title": "Angel",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/angel.jpg",
+      "description": ""
+    },
+    {
+      "title": "Art Batttle Poster speed painting",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/art-batttle-poster-speed-painting.jpg",
+      "description": ""
+    },
+    {
+      "title": "Aspens",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/aspens.jpg",
+      "description": ""
+    },
+    {
+      "title": "Aspenswatercolor",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/aspenswatercolor.jpg",
+      "description": ""
+    },
+    {
+      "title": "Austin Art Board painting",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/austin-art-board-painting.jpg",
+      "description": ""
+    },
+    {
+      "title": "Austin Art Board",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/austin-art-board.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 1",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 2",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 3",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 4",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-4.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 5",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-5.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby Room 6",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/baby-room-6.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby ShoesUSA",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/baby-shoesusa.jpg",
+      "description": ""
+    },
+    {
+      "title": "Backyard Relics 1",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/backyard-relics-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Backyard Relics 2",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "25 x 22\"",
+      "sold": false,
+      "image": "assets/backyard-relics-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Backyard Relics 3",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/backyard-relics-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Barn and Sunflowers",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/barn-and-sunflowers.jpg",
+      "description": ""
+    },
+    {
+      "title": "Barn with Farmer",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "19 x 24\"",
+      "sold": false,
+      "image": "assets/barn-with-farmer.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bill with his Wagon",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "11 x 14\"",
+      "sold": false,
+      "image": "assets/bill-with-his-wagon.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bird Nest",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bird-nest.jpg",
+      "description": ""
+    },
+    {
+      "title": "Birdnest study",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": true,
+      "image": "assets/birdnest-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Birds on a branch",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/birds-on-a-branch.jpg",
+      "description": ""
+    },
+    {
+      "title": "Black Rabbit",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "4 x 4\"",
+      "sold": false,
+      "image": "assets/black-rabbit.jpg",
+      "description": ""
+    },
+    {
+      "title": "Black Rabbits in Flowers",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "20 x 22\"",
+      "sold": false,
+      "image": "assets/black-rabbits-in-flowers.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blacks Nursery",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/blacks-nursery.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue and White Rabbits",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/blue-and-white-rabbits.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue and White Rabbits 2",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/blue-and-white-rabbits-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue Hillside",
+      "medium": "Others",
+      "year": "",
+      "size": "9 x 13\"",
+      "sold": false,
+      "image": "assets/blue-hillside.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue Trees",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "11 x 14\"",
+      "sold": false,
+      "image": "assets/blue-trees.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bluebonnet study",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bluebonnet-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bluebonnets",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bluebonnets.jpg",
+      "description": ""
+    },
+    {
+      "title": "Boys and their Bike",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/boys-and-their-bike.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bunnies in the Garden",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bunnies-in-the-garden.jpg",
+      "description": ""
+    },
+    {
+      "title": "Butterfly Girl",
+      "medium": "Collage",
+      "year": "",
+      "size": "10 x 15\"",
+      "sold": false,
+      "image": "assets/butterfly-girl.jpg",
+      "description": ""
+    },
+    {
+      "title": "Button Tribute",
+      "medium": "",
+      "year": "",
+      "size": "11 x 16.5\"",
+      "sold": false,
+      "image": "assets/button-tribute.jpg",
+      "description": ""
+    },
+    {
+      "title": "Cat Dreams",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 9\"",
+      "sold": true,
+      "image": "assets/cat-dreams.jpg",
+      "description": ""
+    },
+    {
+      "title": "Church Ladies",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "4 x 4\"",
+      "sold": false,
+      "image": "assets/church-ladies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Circus",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/circus.jpg",
+      "description": ""
+    },
+    {
+      "title": "collage assemblage sold",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/collage-assemblage-sold.jpg",
+      "description": ""
+    },
+    {
+      "title": "Collection 0f Mini",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/collection-0f-mini.jpg",
+      "description": ""
+    },
+    {
+      "title": "crow",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/crow.jpg",
+      "description": ""
+    },
+    {
+      "title": "Crows and Rabbits",
+      "medium": "Collage",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/crows-and-rabbits.jpg",
+      "description": ""
+    },
+    {
+      "title": "Dead Man's Hole",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 20\"",
+      "sold": false,
+      "image": "assets/dead-man-s-hole.jpg",
+      "description": ""
+    },
+    {
+      "title": "Desert Night",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/desert-night.jpg",
+      "description": ""
+    },
+    {
+      "title": "dog",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/dog.jpg",
+      "description": ""
+    },
+    {
+      "title": "Doll Collection",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/doll-collection.jpg",
+      "description": ""
+    },
+    {
+      "title": "Dutch Rabbit with Poppies award",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/dutch-rabbit-with-poppies-award.jpg",
+      "description": ""
+    },
+    {
+      "title": "Dutch Rabbits with Poppies",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "20 x 22\"",
+      "sold": false,
+      "image": "assets/dutch-rabbits-with-poppies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Emilime",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "13 x 24\"",
+      "sold": false,
+      "image": "assets/emilime.jpg",
+      "description": ""
+    },
+    {
+      "title": "Family Farm",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "11 x 14\"",
+      "sold": false,
+      "image": "assets/family-farm.jpg",
+      "description": ""
+    },
+    {
+      "title": "Fish with frame",
+      "medium": "Collage",
+      "year": "",
+      "size": "23 x 17\"",
+      "sold": false,
+      "image": "assets/fish-with-frame.jpg",
+      "description": ""
+    },
+    {
+      "title": "Flags of Columbus",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "14 x 13.5\"",
+      "sold": false,
+      "image": "assets/flags-of-columbus.jpg",
+      "description": ""
+    },
+    {
+      "title": "Four birds",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/four-birds.jpg",
+      "description": ""
+    },
+    {
+      "title": "Garden Angel",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/garden-angel.jpg",
+      "description": ""
+    },
+    {
+      "title": "Garden Virgin",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/garden-virgin.jpg",
+      "description": ""
+    },
+    {
+      "title": "Garden Virgin with Pommogranets",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/garden-virgin-with-pommogranets.jpg",
+      "description": ""
+    },
+    {
+      "title": "Gemma Vase with Oranges",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "14 x 20\"",
+      "sold": false,
+      "image": "assets/gemma-vase-with-oranges.jpg",
+      "description": ""
+    },
+    {
+      "title": "Georgetown Poppies",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": true,
+      "image": "assets/georgetown-poppies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Georgetown Poppy(poster)",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/georgetown-poppy-poster.jpg",
+      "description": ""
+    },
+    {
+      "title": "Ghost Bike",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "30 x 40\"",
+      "sold": false,
+      "image": "assets/ghost-bike.jpg",
+      "description": ""
+    },
+    {
+      "title": "Girl on Couch",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/girl-on-couch.jpg",
+      "description": ""
+    },
+    {
+      "title": "Girl with Pigeons",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/girl-with-pigeons.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hailey",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/hailey.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel in the Pool",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel-in-the-pool.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel Portrait 3",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel-portrait-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel Relaxing",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/hazel-relaxing.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel Three Portraits",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel-three-portraits.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hazel's Portraits at the Peoples Gallery",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel-s-portraits-at-the-peoples-gallery.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hillside 2",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hillside-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hillside",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "4 x 8\"",
+      "sold": false,
+      "image": "assets/hillside.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hillside in Brown and Blue",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "4.5 x 6\"",
+      "sold": false,
+      "image": "assets/hillside-in-brown-and-blue.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hillside",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hillside-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Houston Zoo",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/houston-zoo.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hula Hoop on the Beach",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/hula-hoop-on-the-beach.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hula Hoop",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/hula-hoop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Ice Cream Shop",
+      "medium": "Oils",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/ice-cream-shop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Iris",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/iris.jpg",
+      "description": ""
+    },
+    {
+      "title": "Iris Garden",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/iris-garden.jpg",
+      "description": ""
+    },
+    {
+      "title": "JessieAtTheScreendoor",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/jessieatthescreendoor.jpg",
+      "description": ""
+    },
+    {
+      "title": "July Landscape",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/july-landscape.jpg",
+      "description": ""
+    },
+    {
+      "title": "Kansas Storm",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/kansas-storm.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape 2",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/landscape-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape 1",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/landscape-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape 3",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/landscape-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape 4",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/landscape-4.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape 5",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "2.5 x 5.5\"",
+      "sold": false,
+      "image": "assets/landscape-5.jpg",
+      "description": ""
+    },
+    {
+      "title": "Landscape",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/landscape.jpg",
+      "description": ""
+    },
+    {
+      "title": "Lavender Festival Poster",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/lavender-festival-poster.jpg",
+      "description": ""
+    },
+    {
+      "title": "Lavender on Fence",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "13 x 24\"",
+      "sold": false,
+      "image": "assets/lavender-on-fence.jpg",
+      "description": ""
+    },
+    {
+      "title": "Let Me Think About it",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 6\"",
+      "sold": true,
+      "image": "assets/let-me-think-about-it.jpg",
+      "description": ""
+    },
+    {
+      "title": "Liz",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/liz.jpg",
+      "description": ""
+    },
+    {
+      "title": "Martha",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/martha.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mary Beth",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/mary-beth.jpg",
+      "description": ""
+    },
+    {
+      "title": "Meeting for Lunch",
+      "medium": "Oils",
+      "year": "",
+      "size": "24 x 42\"",
+      "sold": false,
+      "image": "assets/meeting-for-lunch.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mexican Chicken Pot with Cactus",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/mexican-chicken-pot-with-cactus.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mexican Still Life",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/mexican-still-life.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mexico",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/mexico.jpg",
+      "description": ""
+    },
+    {
+      "title": "Musical Mime",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "9 x 28\"",
+      "sold": false,
+      "image": "assets/musical-mime.jpg",
+      "description": ""
+    },
+    {
+      "title": "Musical Mime with Graffiti",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "12 x 27\"",
+      "sold": false,
+      "image": "assets/musical-mime-with-graffiti.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mystery Girl",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "13 x 10\"",
+      "sold": false,
+      "image": "assets/mystery-girl.jpg",
+      "description": ""
+    },
+    {
+      "title": "Nest in Black and gold",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/nest-in-black-and-gold.jpg",
+      "description": ""
+    },
+    {
+      "title": "New Orleans Doll Shop",
+      "medium": "",
+      "year": "",
+      "size": "18 x 27\"",
+      "sold": false,
+      "image": "assets/new-orleans-doll-shop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Night Patrol",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 23\"",
+      "sold": false,
+      "image": "assets/night-patrol.jpg",
+      "description": ""
+    },
+    {
+      "title": "No Smoking",
+      "medium": "Collage",
+      "year": "",
+      "size": "12 x 15\"",
+      "sold": false,
+      "image": "assets/no-smoking.jpg",
+      "description": ""
+    },
+    {
+      "title": "Nora and Butterflies",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "11 x 14\"",
+      "sold": false,
+      "image": "assets/nora-and-butterflies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Nora in Brown",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/nora-in-brown.jpg",
+      "description": ""
+    },
+    {
+      "title": "Nursery Wagons",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/nursery-wagons.jpg",
+      "description": ""
+    },
+    {
+      "title": "Organ Mountains",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "9 x 11\"",
+      "sold": false,
+      "image": "assets/organ-mountains.jpg",
+      "description": ""
+    },
+    {
+      "title": "Over My Shoulder",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/over-my-shoulder.jpg",
+      "description": ""
+    },
+    {
+      "title": "Pimpkins and Scarecrows",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/pimpkins-and-scarecrows.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poinsettia",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/poinsettia.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poppies in Georgetown",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/poppies-in-georgetown.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poppy",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/poppy.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poppy Field",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/poppy-field.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poppy Girl with Butterflies",
+      "medium": "Collage",
+      "year": "",
+      "size": "18 x 24\"",
+      "sold": false,
+      "image": "assets/poppy-girl-with-butterflies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Prayers",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/prayers.jpg",
+      "description": ""
+    },
+    {
+      "title": "Purple Ridge",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "6 x 12\"",
+      "sold": false,
+      "image": "assets/purple-ridge.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbit",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbit.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits and Carr soldots",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-and-carr-soldots.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits in Blue",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-in-blue.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits in Orange",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-in-orange.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits in the Grass",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-in-the-grass.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits,Crows and Flower",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-crows-and-flower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rabbits,crows and Music",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-crows-and-music.jpg",
+      "description": ""
+    },
+    {
+      "title": "Reclining",
+      "medium": "Collage",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": true,
+      "image": "assets/reclining.jpg",
+      "description": ""
+    },
+    {
+      "title": "Red Head",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/red-head.jpg",
+      "description": ""
+    },
+    {
+      "title": "Red Poppies",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "22 x 11.5\"",
+      "sold": false,
+      "image": "assets/red-poppies.jpg",
+      "description": ""
+    },
+    {
+      "title": "Relaxing",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/relaxing.jpg",
+      "description": ""
+    },
+    {
+      "title": "Roadside Memorial",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "20 x 28\"",
+      "sold": false,
+      "image": "assets/roadside-memorial.jpg",
+      "description": ""
+    },
+    {
+      "title": "Room for Three",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "7 x 10\"",
+      "sold": false,
+      "image": "assets/room-for-three.jpg",
+      "description": ""
+    },
+    {
+      "title": "Rose Tattoo",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rose-tattoo.jpg",
+      "description": ""
+    },
+    {
+      "title": "Santa Rita",
+      "medium": "Collage",
+      "year": "",
+      "size": "12 x 18\"",
+      "sold": false,
+      "image": "assets/santa-rita.jpg",
+      "description": ""
+    },
+    {
+      "title": "Scarecrows",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/scarecrows.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sewing Notions",
+      "medium": "Others",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/sewing-notions.jpg",
+      "description": ""
+    },
+    {
+      "title": "Shells",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/shells.jpg",
+      "description": ""
+    },
+    {
+      "title": "Shining Through",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "4 x 4\"",
+      "sold": false,
+      "image": "assets/shining-through.jpg",
+      "description": ""
+    },
+    {
+      "title": "Shy Sunflower",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/shy-sunflower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Spider study",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/spider-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Spring Bouquet",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "5 x 5\"",
+      "sold": false,
+      "image": "assets/spring-bouquet.jpg",
+      "description": ""
+    },
+    {
+      "title": "Spring Nest",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "10.5 x 14.5\"",
+      "sold": false,
+      "image": "assets/spring-nest.jpg",
+      "description": ""
+    },
+    {
+      "title": "Still Life",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": true,
+      "image": "assets/still-life.jpg",
+      "description": ""
+    },
+    {
+      "title": "Still Life with Persimmons",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/still-life-with-persimmons.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sun Flower with Bee",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/sun-flower-with-bee.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sun Flowers at Night",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/sun-flowers-at-night.jpg",
+      "description": ""
+    },
+    {
+      "title": "Tables",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/tables.jpg",
+      "description": ""
+    },
+    {
+      "title": "Talavera Pitcher",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/talavera-pitcher.jpg",
+      "description": ""
+    },
+    {
+      "title": "Talavera with Fruit",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/talavera-with-fruit.jpg",
+      "description": ""
+    },
+    {
+      "title": "Texas",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/texas.jpg",
+      "description": ""
+    },
+    {
+      "title": "Texas Bluebonnet",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "15 x 15\"",
+      "sold": false,
+      "image": "assets/texas-bluebonnet.jpg",
+      "description": ""
+    },
+    {
+      "title": "Texas Grapes",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/texas-grapes.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Blind Fiddler",
+      "medium": "Others",
+      "year": "",
+      "size": "17 x 22\"",
+      "sold": false,
+      "image": "assets/the-blind-fiddler.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Dress",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 20\"",
+      "sold": false,
+      "image": "assets/the-dress.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Swing",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "14 x 14\"",
+      "sold": false,
+      "image": "assets/the-swing.jpg",
+      "description": ""
+    },
+    {
+      "title": "Toy Singer",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/toy-singer.jpg",
+      "description": ""
+    },
+    {
+      "title": "Tree Study",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/tree-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Tug of War nwatercolor",
+      "medium": "",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/tug-of-war-nwatercolor.jpg",
+      "description": ""
+    },
+    {
+      "title": "Under the Sea",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/under-the-sea.jpg",
+      "description": ""
+    },
+    {
+      "title": "Up from the Deep",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "14 x 7\"",
+      "sold": false,
+      "image": "assets/up-from-the-deep.jpg",
+      "description": ""
+    },
+    {
+      "title": "Valelntine's Day",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "29 x 46\"",
+      "sold": false,
+      "image": "assets/valelntine-s-day.jpg",
+      "description": ""
+    },
+    {
+      "title": "Van Gogh Rabbit",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/van-gogh-rabbit.jpg",
+      "description": ""
+    },
+    {
+      "title": "Waiting",
+      "medium": "Oils",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/waiting.jpg",
+      "description": ""
+    },
+    {
+      "title": "Watching You",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 20\"",
+      "sold": false,
+      "image": "assets/watching-you.jpg",
+      "description": ""
+    },
+    {
+      "title": "Poppy",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/poppy-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wedding Day",
+      "medium": "",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/wedding-day.jpg",
+      "description": ""
+    },
+    {
+      "title": "West Texas",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "16 x 22\"",
+      "sold": false,
+      "image": "assets/west-texas.jpg",
+      "description": ""
+    },
+    {
+      "title": "Whale",
+      "medium": "Others",
+      "year": "",
+      "size": "23 x 8\"",
+      "sold": false,
+      "image": "assets/whale.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wild Flower",
+      "medium": "Others",
+      "year": "",
+      "size": "1 x 3\"",
+      "sold": false,
+      "image": "assets/wild-flower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Winston",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/winston.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wrought Iron Fence",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "9 x 12\"",
+      "sold": false,
+      "image": "assets/wrought-iron-fence.jpg",
+      "description": ""
+    },
+    {
+      "title": "Yellow Rose of Texas",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "6 x 8\"",
+      "sold": false,
+      "image": "assets/yellow-rose-of-texas.jpg",
+      "description": ""
+    },
+    {
+      "title": "Ysleta Mission",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/ysleta-mission.jpg",
+      "description": ""
     }
   ]
 }
