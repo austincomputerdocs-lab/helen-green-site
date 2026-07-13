@@ -734,9 +734,6 @@
         this.__makeLogic(registry.get(this.__name).Logic, null);
         ensureFetched(this.__name);
       }
-      /** Error-boundary hook: a render crash anywhere in this DC's subtree
-       *  (its own template, an x-import'd component, a child DC without its
-       *  own deeper boundary) lands here instead of unmounting the page. */
       static getDerivedStateFromError(e) {
         return { __err: e instanceof Error && e.message ? e.message : String(e) };
       }
@@ -747,8 +744,6 @@
           info?.componentStack || ""
         );
       }
-      /** Instantiate the logic class (or the no-op base) and adopt `prevState`
-       *  over its initial state — used both at mount and on hot-swap. */
       __makeLogic(Logic, prevState) {
         const L = Logic || StreamableLogic;
         try {
@@ -764,8 +759,6 @@
         if (prevState)
           this.logic.state = { ...this.logic.state || {}, ...prevState };
       }
-      /** The props the author's logic + template see — internal __-prefixed
-       *  wiring stripped. */
       __userProps() {
         const { __name, __hintSize, __tplId, __hostStyle, ...rest } = this.props;
         return rest;
@@ -776,9 +769,6 @@
         this.logic.state = { ...prev, ...patch };
         this.setState((s) => ({ __v: s.__v + 1 }), cb);
       }
-      /** Swap the logic instance when the registry's Logic class changed
-       *  (streaming completion, hot reload). State carries over; didMount
-       *  re-fires after the swap commits so refs exist. */
       __reconcileLogic() {
         const Next = registry.get(this.__name).Logic;
         const Cur = this.logic.constructor;
@@ -1432,16 +1422,8 @@
         if (name === rootName && !streaming && kind === "props") notifyHost();
       },
       __dcSetProps: (name, overrides) => runtime.setProps(name, overrides),
-      /** Name of the component currently mounted as the page root — DC tools
-       *  push their template-stream here when targeting "the open page". */
       __dcRootName: () => rootName,
-      /** Editor bridge — the encoded, `data-dc-tpl`-annotated template source.
-       *  The host editor parses this into its own template DOM so it can map a
-       *  rendered node (carrying the same `data-dc-tpl`) back to the source
-       *  node that emitted it. Returns the encoded form (`<sc-comp>`,
-       *  `sc-camel-*` attrs); the editor decodes on serialize. */
       __dcAnnotatedTemplate: (name) => runtime.annotatedTemplate(name),
-      /** Editor bridge — the *original* (decoded) template source. */
       __dcTemplateSource: (name) => runtime.templateSource(name),
       __dcBoot: () => {
         rootName = boot(runtime, document) ?? rootName;
@@ -1449,8 +1431,6 @@
       },
       __dcRegistry: runtime.registry.entries,
       getDC: (name) => runtime.getDC(name),
-      // `DCLogic` is the documented base class name; `StreamableLogic` is the
-      // implementation alias kept for any project that already references it.
       DCLogic: runtime.StreamableLogic,
       StreamableLogic: runtime.StreamableLogic
     };

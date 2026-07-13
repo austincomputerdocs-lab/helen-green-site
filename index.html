@@ -276,6 +276,20 @@ class Component extends DCLogic {
     this.forceUpdate();
   }
 
+  // ── Sold-status display ──
+  // The CMS checkbox only sets a true/false 'sold' field on the artwork record.
+  // This is the single place that turns that flag into the italic " - Sold"
+  // text people see — change the wording/styling here and every view updates.
+  soldLabel(work){
+    return work && work.sold
+      ? React.createElement('em', { style:{ fontStyle:'italic' } }, ' - Sold')
+      : null;
+  }
+  titleDisplay(work){
+    if (!work) return '';
+    return React.createElement(React.Fragment, null, work.title, this.soldLabel(work));
+  }
+
   artworks(){ return (this.state.content && this.state.content.artworks) || []; }
   mediumList(){ return (this.state.content && this.state.content.mediums) || ['Pastels','Oils','Watercolors','Collage']; }
   mediumTag(m){ return ({Collage:'collage', Watercolors:'w/c', Oils:'oil', Pastels:'pastel'})[m] || 'work'; }
@@ -352,7 +366,7 @@ class Component extends DCLogic {
         ? frame('20px', h('img', { src: w.image, style:{ display:'block', width:'600px', maxWidth:'100%', height:'auto' } }))
         : frame('20px', h('div', { style:{ width:'560px', maxWidth:'100%', height:'320px', background:hatch(9), display:'flex', alignItems:'center', justifyContent:'center' } },
             h('span', { style:{ fontFamily:"'Courier New',monospace", fontSize:'11px', color:'var(--muted)' } }, 'photo to come'))),
-      title: w.title, meta: [w.year, w.size].filter(Boolean).join(' · ')
+      title: this.titleDisplay(w), meta: [w.year, w.size].filter(Boolean).join(' · ')
     }));
 
     const aboutPortrait = c.portrait
@@ -377,7 +391,7 @@ class Component extends DCLogic {
       lightboxOpen: s.lightboxOpen,
       lightboxImg,
       zoomLabel: `${Math.round(s.zoom * 100)}%`,
-      lightboxCaption: current ? [current.title, current.year].filter(Boolean).join(' · ') : '',
+      lightboxCaption: current ? [current.title + (current.sold ? ' - Sold' : ''), current.year].filter(Boolean).join(' · ') : '',
       openLightbox: () => this.openLightbox(),
       closeLightbox: () => this.closeLightbox(),
       zoomIn: () => this.zoomIn(),
@@ -395,7 +409,7 @@ class Component extends DCLogic {
       isSingle: s.view === 'single',
       isAll: s.view === 'all',
       mediums, thumbs, allWorks, heroVisual,
-      heroTitle: current ? current.title : '',
+      heroTitle: current ? this.titleDisplay(current) : '',
       heroMeta: current ? [current.medium, current.year, current.size].filter(Boolean).join(' · ') : '',
       heroDescription: current ? (current.description || '') : '',
       countLabel: `— ${list.length} works`,
