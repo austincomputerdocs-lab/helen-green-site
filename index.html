@@ -282,7 +282,7 @@ class Component extends DCLogic {
   // text people see — change the wording/styling here and every view updates.
   soldLabel(work){
     return work && work.sold
-      ? React.createElement('em', { style:{ fontStyle:'italic' } }, ' - Sold')
+      ? React.createElement('em', { style:{ fontStyle:'italic', fontSize:'0.6em', color:'#8B0000' } }, ' - Sold')
       : null;
   }
   titleDisplay(work){
