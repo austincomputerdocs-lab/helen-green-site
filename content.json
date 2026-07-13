@@ -18,7 +18,8 @@
       "year": "2023",
       "size": "24 × 13 in",
       "image": "assets/birds-collage.jpg",
-      "description": "A swirl of starlings over a winter field."
+      "description": "A swirl of starlings over a winter field.",
+      "sold": true
     },
     {
       "title": "Summer Schwinn",
