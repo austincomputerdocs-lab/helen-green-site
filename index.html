@@ -98,7 +98,11 @@
   <sc-if value="{{ isSingle }}" hint-placeholder-val="{{ true }}">
    <div>
     <div class="hg-hero-wrap" style="padding:54px 60px 28px; display:flex; flex-direction:column; align-items:center;">
-      {{ heroVisual }}
+      <div style="display:flex; align-items:center; justify-content:center; gap:20px; width:100%; flex-wrap:wrap;">
+        <div onClick="{{ prevWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; flex:none; color:var(--body); font-size:18px; cursor:pointer;">‹</div>
+        {{ heroVisual }}
+        <div onClick="{{ nextWork }}" style="width:44px; height:44px; border-radius:50%; border:1px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; flex:none; color:var(--body); font-size:18px; cursor:pointer;">›</div>
+      </div>
       <div style="text-align:center; margin-top:24px;">
         <div class="hg-hero-title" style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:30px; color:var(--ink);">{{ heroTitle }}</div>
         <div class="hg-hero-meta" style="font-size:14px; letter-spacing:2px; text-transform:uppercase; color:var(--sub); margin-top:6px;">{{ heroMeta }}</div>
