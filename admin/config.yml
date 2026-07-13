@@ -1,15 +1,11 @@
 # This file tells the content manager what fields to show Helen.
 # It edits content.json — the same file the website reads.
-
 backend:
   name: git-gateway      # lets the CMS save changes back to your GitHub repo
   branch: main           # the branch your site deploys from
-
 media_folder: "assets"   # where uploaded photos are stored in the project
 public_folder: "assets"  # the path the website uses to find them
-
 site_url: https://helen-green-art.netlify.app   # <-- change after you deploy
-
 collections:
   - name: "site"
     label: "Helen Green — Website"
@@ -24,11 +20,9 @@ collections:
           - { label: "Contact email", name: "contactEmail", widget: "string" }
           - { label: "Bio",           name: "bio",          widget: "text" }
           - { label: "Portrait photo", name: "portrait",    widget: "image", required: false }
-
           - label: "Mediums (the categories in the Artworks menu)"
             name: "mediums"
             widget: "list"   # a simple add/remove/reorder list of words
-
           - label: "Artworks"
             name: "artworks"
             widget: "list"
@@ -36,8 +30,9 @@ collections:
             summary: "{{fields.title}}  ·  {{fields.medium}}"
             fields:
               - { label: "Title",       name: "title",       widget: "string" }
-              - { label: "Medium",      name: "medium",      widget: "select", options: ["Pastels", "Oils", "Watercolors", "Collage"] }
+              - { label: "Medium",      name: "medium",      widget: "select", options: ["Watercolors", "Collage", "Acrylics", "Oils", "Others"] }
               - { label: "Year",        name: "year",        widget: "string", required: false }
               - { label: "Size",        name: "size",        widget: "string", required: false }
+              - { label: "Sold",        name: "sold",        widget: "boolean", required: false, default: false }
               - { label: "Photo",       name: "image",       widget: "image",  required: false }
               - { label: "Description", name: "description", widget: "text",   required: false }
