@@ -1185,7 +1185,7 @@
       "medium": "Acrylics",
       "year": "",
       "size": "",
-      "sold": true,
+      "sold": false,
       "image": "assets/angel.jpg",
       "description": ""
     },
