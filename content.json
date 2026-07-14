@@ -1,14 +1,6 @@
 {
   "artworksOils": [
     {
-      "title": "Hillside in October",
-      "medium": "Oils",
-      "year": "2021",
-      "size": "20 × 24 in",
-      "image": "",
-      "description": ""
-    },
-    {
       "title": "Ice Cream Shop",
       "medium": "Oils",
       "year": "",
@@ -24,22 +16,6 @@
       "size": "24 x 42\"",
       "sold": false,
       "image": "assets/meeting-for-lunch.jpg",
-      "description": ""
-    },
-    {
-      "title": "Red Barn, Late Day",
-      "medium": "Oils",
-      "year": "2022",
-      "size": "24 × 30 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Still Pond",
-      "medium": "Oils",
-      "year": "2023",
-      "size": "18 × 18 in",
-      "image": "",
       "description": ""
     },
     {
