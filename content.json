@@ -1,15 +1,180 @@
 {
-  "artistName": "Helen Green",
-  "tagline": "Folk paintings & mixed media",
-  "contactEmail": "hello@helengreenart.com",
-  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
-  "portrait": "assets/helenprofile.jpg",
-  "mediums": [
-    "Watercolors",
-    "Collage",
-    "Acrylics",
-    "Oils",
-    "Others"
+  "artworksOils": [
+    {
+      "title": "Hillside in October",
+      "medium": "Oils",
+      "year": "2021",
+      "size": "20 × 24 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Ice Cream Shop",
+      "medium": "Oils",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/ice-cream-shop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Meeting for Lunch",
+      "medium": "Oils",
+      "year": "",
+      "size": "24 x 42\"",
+      "sold": false,
+      "image": "assets/meeting-for-lunch.jpg",
+      "description": ""
+    },
+    {
+      "title": "Red Barn, Late Day",
+      "medium": "Oils",
+      "year": "2022",
+      "size": "24 × 30 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Still Pond",
+      "medium": "Oils",
+      "year": "2023",
+      "size": "18 × 18 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Test oil",
+      "medium": "Oils",
+      "year": "2025",
+      "size": "12x12",
+      "image": "assets/image.jpg",
+      "description": "Test "
+    },
+    {
+      "title": "Waiting",
+      "medium": "Oils",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/waiting.jpg",
+      "description": ""
+    }
+  ],
+  "artworksOthers": [
+    {
+      "title": "Baby ShoesUSA",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/baby-shoesusa.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue Hillside",
+      "medium": "Others",
+      "year": "",
+      "size": "9 x 13\"",
+      "sold": false,
+      "image": "assets/blue-hillside.jpg",
+      "description": ""
+    },
+    {
+      "title": "Cat Dreams",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 9\"",
+      "sold": true,
+      "image": "assets/cat-dreams.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hare in Tall Grass",
+      "medium": "Pastels",
+      "year": "2023",
+      "size": "11 × 14 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Let Me Think About it",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 6\"",
+      "sold": true,
+      "image": "assets/let-me-think-about-it.jpg",
+      "description": ""
+    },
+    {
+      "title": "Meadow Edge",
+      "medium": "Pastels",
+      "year": "2021",
+      "size": "14 × 11 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Sewing Notions",
+      "medium": "Others",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/sewing-notions.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Blind Fiddler",
+      "medium": "Others",
+      "year": "",
+      "size": "17 x 22\"",
+      "sold": false,
+      "image": "assets/the-blind-fiddler.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Dress",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 20\"",
+      "sold": false,
+      "image": "assets/the-dress.jpg",
+      "description": ""
+    },
+    {
+      "title": "Two Rabbits",
+      "medium": "Pastels",
+      "year": "2022",
+      "size": "9 × 12 in",
+      "image": "",
+      "description": ""
+    },
+    {
+      "title": "Whale",
+      "medium": "Others",
+      "year": "",
+      "size": "23 x 8\"",
+      "sold": false,
+      "image": "assets/whale.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wild Flower",
+      "medium": "Others",
+      "year": "",
+      "size": "1 x 3\"",
+      "sold": false,
+      "image": "assets/wild-flower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Winston",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/winston.jpg",
+      "description": ""
+    }
   ],
   "artworksWatercolors": [
     {
@@ -318,14 +483,6 @@
       "description": ""
     },
     {
-      "title": "Morning Hare",
-      "medium": "Watercolors",
-      "year": "2022",
-      "size": "10 × 8 in",
-      "image": "",
-      "description": ""
-    },
-    {
       "title": "Musical Mime",
       "medium": "Watercolors",
       "year": "",
@@ -630,6 +787,9 @@
       "description": ""
     }
   ],
+  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
+  "tagline": "Folk paintings & mixed media",
+  "artistName": "Helen Green",
   "artworksCollage": [
     {
       "title": "A Murmuration",
@@ -1115,183 +1275,6 @@
       "description": ""
     }
   ],
-  "artworksOils": [
-    {
-      "title": "Hillside in October",
-      "medium": "Oils",
-      "year": "2021",
-      "size": "20 × 24 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Ice Cream Shop",
-      "medium": "Oils",
-      "year": "",
-      "size": "16 x 20\"",
-      "sold": false,
-      "image": "assets/ice-cream-shop.jpg",
-      "description": ""
-    },
-    {
-      "title": "Meeting for Lunch",
-      "medium": "Oils",
-      "year": "",
-      "size": "24 x 42\"",
-      "sold": false,
-      "image": "assets/meeting-for-lunch.jpg",
-      "description": ""
-    },
-    {
-      "title": "Red Barn, Late Day",
-      "medium": "Oils",
-      "year": "2022",
-      "size": "24 × 30 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Still Pond",
-      "medium": "Oils",
-      "year": "2023",
-      "size": "18 × 18 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Test oil",
-      "medium": "Oils",
-      "year": "2025",
-      "size": "12x12",
-      "image": "assets/image.jpg",
-      "description": "Test "
-    },
-    {
-      "title": "Waiting",
-      "medium": "Oils",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/waiting.jpg",
-      "description": ""
-    }
-  ],
-  "artworksOthers": [
-    {
-      "title": "Baby ShoesUSA",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 7\"",
-      "sold": false,
-      "image": "assets/baby-shoesusa.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blue Hillside",
-      "medium": "Others",
-      "year": "",
-      "size": "9 x 13\"",
-      "sold": false,
-      "image": "assets/blue-hillside.jpg",
-      "description": ""
-    },
-    {
-      "title": "Cat Dreams",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 9\"",
-      "sold": true,
-      "image": "assets/cat-dreams.jpg",
-      "description": ""
-    },
-    {
-      "title": "Hare in Tall Grass",
-      "medium": "Pastels",
-      "year": "2023",
-      "size": "11 × 14 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Let Me Think About it",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 6\"",
-      "sold": true,
-      "image": "assets/let-me-think-about-it.jpg",
-      "description": ""
-    },
-    {
-      "title": "Meadow Edge",
-      "medium": "Pastels",
-      "year": "2021",
-      "size": "14 × 11 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Sewing Notions",
-      "medium": "Others",
-      "year": "",
-      "size": "8 x 10\"",
-      "sold": false,
-      "image": "assets/sewing-notions.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Blind Fiddler",
-      "medium": "Others",
-      "year": "",
-      "size": "17 x 22\"",
-      "sold": false,
-      "image": "assets/the-blind-fiddler.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Dress",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 20\"",
-      "sold": false,
-      "image": "assets/the-dress.jpg",
-      "description": ""
-    },
-    {
-      "title": "Two Rabbits",
-      "medium": "Pastels",
-      "year": "2022",
-      "size": "9 × 12 in",
-      "image": "",
-      "description": ""
-    },
-    {
-      "title": "Whale",
-      "medium": "Others",
-      "year": "",
-      "size": "23 x 8\"",
-      "sold": false,
-      "image": "assets/whale.jpg",
-      "description": ""
-    },
-    {
-      "title": "Wild Flower",
-      "medium": "Others",
-      "year": "",
-      "size": "1 x 3\"",
-      "sold": false,
-      "image": "assets/wild-flower.jpg",
-      "description": ""
-    },
-    {
-      "title": "Winston",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/winston.jpg",
-      "description": ""
-    }
-  ],
   "artworksUnsorted": [
     {
       "title": "Angel",
@@ -1743,5 +1726,14 @@
       "image": "assets/wedding-day.jpg",
       "description": ""
     }
+  ],
+  "portrait": "assets/helenprofile.jpg",
+  "contactEmail": "hello@helengreenart.com",
+  "mediums": [
+    "Watercolors",
+    "Collage",
+    "Acrylics",
+    "Oils",
+    "Others"
   ]
 }
