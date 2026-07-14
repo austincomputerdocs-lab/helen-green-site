@@ -65,28 +65,12 @@
       "description": ""
     },
     {
-      "title": "Hare in Tall Grass",
-      "medium": "Pastels",
-      "year": "2023",
-      "size": "11 × 14 in",
-      "image": "",
-      "description": ""
-    },
-    {
       "title": "Let Me Think About it",
       "medium": "Others",
       "year": "",
       "size": "5 x 6\"",
       "sold": true,
       "image": "assets/let-me-think-about-it.jpg",
-      "description": ""
-    },
-    {
-      "title": "Meadow Edge",
-      "medium": "Pastels",
-      "year": "2021",
-      "size": "14 × 11 in",
-      "image": "",
       "description": ""
     },
     {
@@ -114,14 +98,6 @@
       "size": "10 x 20\"",
       "sold": false,
       "image": "assets/the-dress.jpg",
-      "description": ""
-    },
-    {
-      "title": "Two Rabbits",
-      "medium": "Pastels",
-      "year": "2022",
-      "size": "9 × 12 in",
-      "image": "",
       "description": ""
     },
     {
