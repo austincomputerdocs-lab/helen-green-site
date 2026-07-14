@@ -249,8 +249,20 @@ class Component extends DCLogic {
     window.addEventListener('keydown', this._onKey);
     fetch('content.json', { cache: 'no-store' })
       .then(r => r.json())
-      .then(content => {
-        const first = (content.artworks || [])[0];
+      .then(raw => {
+        // content.json now stores artworks as separate per-medium lists (so the
+        // CMS shows them as separate sections instead of one long list). Flatten
+        // them back into one array here — the rest of this component only ever
+        // deals with a single flat `artworks` list, unchanged from before.
+        const BUCKETS = ['Watercolors', 'Collage', 'Acrylics', 'Oils', 'Others'];
+        let flat = [];
+        BUCKETS.forEach(name => {
+          const key = 'artworks' + name;
+          (raw[key] || []).forEach(w => flat.push({ ...w, medium: name }));
+        });
+        (raw.artworksUnsorted || []).forEach(w => flat.push({ ...w, medium: w.medium || '' }));
+        const content = { ...raw, artworks: flat };
+        const first = flat[0];
         this.setState({
           content,
           medium: first ? first.medium : (content.mediums || [])[0],
