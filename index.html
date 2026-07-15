@@ -56,7 +56,7 @@
     .hg-all-grid    { padding: 10px 20px 36px !important; }
 
     /* About overlay: full screen on mobile */
-    .hg-about-panel { width: 96% !important; flex-direction: column !important; }
+    .hg-about-panel { width: auto !important; max-width: none !important; top: 16px !important; right: 12px !important; left: 12px !important; flex-direction: column !important; }
     .hg-about-portrait { width: 100% !important; height: 200px !important; }
   }
 </style>
@@ -153,8 +153,8 @@
   <!-- ===== ABOUT OVERLAY ===== -->
   <sc-if value="{{ aboutOpen }}">
    <div>
-    <div onClick="{{ closeAbout }}" style="position:absolute; inset:0; background:rgba(20,16,12,0.5); z-index:40;"></div>
-    <div class="hg-about-panel" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:740px; max-width:88%; background:var(--panel); box-shadow:0 40px 80px -30px rgba(20,16,12,0.65); border:1px solid var(--line); display:flex; overflow:hidden; z-index:41;">
+    <div onClick="{{ closeAbout }}" style="position:fixed; inset:0; background:rgba(20,16,12,0.5); z-index:40;"></div>
+    <div class="hg-about-panel" style="position:fixed; top:90px; right:60px; width:740px; max-width:88vw; background:var(--panel); box-shadow:0 40px 80px -30px rgba(20,16,12,0.65); border:1px solid var(--line); display:flex; overflow:hidden; z-index:41;">
       <div class="hg-about-portrait" style="width:230px; flex:none;">{{ aboutPortrait }}</div>
       <div style="flex:1; padding:44px 46px;">
         <div style="font-size:12px; letter-spacing:3px; text-transform:uppercase; color:var(--accent); margin-bottom:14px;">About the artist</div>
