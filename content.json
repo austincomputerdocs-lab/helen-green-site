@@ -1,124 +1,15 @@
 {
-  "artworksOils": [
-    {
-      "title": "Ice Cream Shop",
-      "medium": "Oils",
-      "year": "",
-      "size": "16 x 20\"",
-      "sold": false,
-      "image": "assets/ice-cream-shop.jpg",
-      "description": ""
-    },
-    {
-      "title": "Meeting for Lunch",
-      "medium": "Oils",
-      "year": "",
-      "size": "24 x 42\"",
-      "sold": false,
-      "image": "assets/meeting-for-lunch.jpg",
-      "description": ""
-    },
-    {
-      "title": "Waiting",
-      "medium": "Oils",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/waiting.jpg",
-      "description": ""
-    }
-  ],
-  "artworksOthers": [
-    {
-      "title": "Baby ShoesUSA",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 7\"",
-      "sold": false,
-      "image": "assets/baby-shoesusa.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blue Hillside",
-      "medium": "Others",
-      "year": "",
-      "size": "9 x 13\"",
-      "sold": false,
-      "image": "assets/blue-hillside.jpg",
-      "description": ""
-    },
-    {
-      "title": "Cat Dreams",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 9\"",
-      "sold": true,
-      "image": "assets/cat-dreams.jpg",
-      "description": ""
-    },
-    {
-      "title": "Let Me Think About it",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 6\"",
-      "sold": true,
-      "image": "assets/let-me-think-about-it.jpg",
-      "description": ""
-    },
-    {
-      "title": "Sewing Notions",
-      "medium": "Others",
-      "year": "",
-      "size": "8 x 10\"",
-      "sold": false,
-      "image": "assets/sewing-notions.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Blind Fiddler",
-      "medium": "Others",
-      "year": "",
-      "size": "17 x 22\"",
-      "sold": false,
-      "image": "assets/the-blind-fiddler.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Dress",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 20\"",
-      "sold": false,
-      "image": "assets/the-dress.jpg",
-      "description": ""
-    },
-    {
-      "title": "Whale",
-      "medium": "Others",
-      "year": "",
-      "size": "23 x 8\"",
-      "sold": false,
-      "image": "assets/whale.jpg",
-      "description": ""
-    },
-    {
-      "title": "Wild Flower",
-      "medium": "Others",
-      "year": "",
-      "size": "1 x 3\"",
-      "sold": false,
-      "image": "assets/wild-flower.jpg",
-      "description": ""
-    },
-    {
-      "title": "Winston",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/winston.jpg",
-      "description": ""
-    }
+  "artistName": "Helen Faythe Green",
+  "tagline": "Paintings & mixed media",
+  "contactEmail": "helengreen@earthlink.net",
+  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
+  "portrait": "assets/helenprofile.jpg",
+  "mediums": [
+    "Watercolors",
+    "Collage",
+    "Acrylics",
+    "Oils",
+    "Others"
   ],
   "artworksWatercolors": [
     {
@@ -137,6 +28,33 @@
       "size": "",
       "sold": false,
       "image": "assets/abstract-landscape.jpg",
+      "description": ""
+    },
+    {
+      "title": "Aspens",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/aspens.jpg",
+      "description": ""
+    },
+    {
+      "title": "Aspens watercolor",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/aspenswatercolor.jpg",
+      "description": ""
+    },
+    {
+      "title": "Austin Art Board",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/austin-art-board.jpg",
       "description": ""
     },
     {
@@ -176,6 +94,15 @@
       "description": ""
     },
     {
+      "title": "Bird Nest",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bird-nest.jpg",
+      "description": ""
+    },
+    {
       "title": "Birdnest study",
       "medium": "Watercolors",
       "year": "",
@@ -191,6 +118,33 @@
       "size": "20 x 22\"",
       "sold": false,
       "image": "assets/black-rabbits-in-flowers.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blacks Nursery",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/blacks-nursery.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bluebonnet study",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bluebonnet-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bluebonnets",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bluebonnets.jpg",
       "description": ""
     },
     {
@@ -275,6 +229,24 @@
       "description": ""
     },
     {
+      "title": "Garden Angel",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/garden-angel.jpg",
+      "description": ""
+    },
+    {
+      "title": "Garden Virgin",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/garden-virgin.jpg",
+      "description": ""
+    },
+    {
       "title": "Garden Virgin with Pommogranets",
       "medium": "Watercolors",
       "year": "",
@@ -290,6 +262,15 @@
       "size": "",
       "sold": true,
       "image": "assets/girl-with-pigeons.jpg",
+      "description": ""
+    },
+    {
+      "title": "Hailey",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/hailey.jpg",
       "description": ""
     },
     {
@@ -338,6 +319,15 @@
       "description": ""
     },
     {
+      "title": "Hazel's Portraits at the Peoples Gallery",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hazel-s-portraits-at-the-peoples-gallery.jpg",
+      "description": ""
+    },
+    {
       "title": "Hillside",
       "medium": "Watercolors",
       "year": "",
@@ -356,12 +346,30 @@
       "description": ""
     },
     {
+      "title": "Hillside 2",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/hillside-2.jpg",
+      "description": ""
+    },
+    {
       "title": "Hillside in Brown and Blue",
       "medium": "Watercolors",
       "year": "",
       "size": "4.5 x 6\"",
       "sold": false,
       "image": "assets/hillside-in-brown-and-blue.jpg",
+      "description": ""
+    },
+    {
+      "title": "Houston Zoo",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/houston-zoo.jpg",
       "description": ""
     },
     {
@@ -374,12 +382,30 @@
       "description": ""
     },
     {
+      "title": "Iris Garden",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/iris-garden.jpg",
+      "description": ""
+    },
+    {
       "title": "July Landscape",
       "medium": "Watercolors",
       "year": "",
       "size": "5 x 7\"",
       "sold": false,
       "image": "assets/july-landscape.jpg",
+      "description": ""
+    },
+    {
+      "title": "Kansas Storm",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/kansas-storm.jpg",
       "description": ""
     },
     {
@@ -401,6 +427,15 @@
       "description": ""
     },
     {
+      "title": "Lavender Festival Poster",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/lavender-festival-poster.jpg",
+      "description": ""
+    },
+    {
       "title": "Lavender on Fence",
       "medium": "Watercolors",
       "year": "",
@@ -416,6 +451,15 @@
       "size": "",
       "sold": true,
       "image": "assets/liz.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mexico",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/mexico.jpg",
       "description": ""
     },
     {
@@ -452,6 +496,15 @@
       "size": "16 x 23\"",
       "sold": false,
       "image": "assets/night-patrol.jpg",
+      "description": ""
+    },
+    {
+      "title": "Nora in Brown",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/nora-in-brown.jpg",
       "description": ""
     },
     {
@@ -545,6 +598,15 @@
       "description": ""
     },
     {
+      "title": "Rabbits in the Grass",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-in-the-grass.jpg",
+      "description": ""
+    },
+    {
       "title": "Red Poppies",
       "medium": "Watercolors",
       "year": "",
@@ -590,6 +652,15 @@
       "description": ""
     },
     {
+      "title": "Shells",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/shells.jpg",
+      "description": ""
+    },
+    {
       "title": "Shining Through",
       "medium": "Watercolors",
       "year": "",
@@ -614,6 +685,24 @@
       "size": "10.5 x 14.5\"",
       "sold": false,
       "image": "assets/spring-nest.jpg",
+      "description": ""
+    },
+    {
+      "title": "Still Life with Persimmons",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/still-life-with-persimmons.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sun Flowers at Night",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/sun-flowers-at-night.jpg",
       "description": ""
     },
     {
@@ -662,12 +751,39 @@
       "description": ""
     },
     {
+      "title": "Tug of War ",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/tug-of-war-nwatercolor.jpg",
+      "description": ""
+    },
+    {
+      "title": "Under the Sea",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/under-the-sea.jpg",
+      "description": ""
+    },
+    {
       "title": "Watching You",
       "medium": "Watercolors",
       "year": "",
       "size": "8 x 20\"",
       "sold": false,
       "image": "assets/watching-you.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wedding Day",
+      "medium": "Watercolors",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/wedding-day.jpg",
       "description": ""
     },
     {
@@ -707,9 +823,6 @@
       "description": ""
     }
   ],
-  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
-  "tagline": "Paintings & mixed media",
-  "artistName": "Helen Faythe Green",
   "artworksCollage": [
     {
       "title": "A Murmuration",
@@ -945,6 +1058,15 @@
       "description": ""
     },
     {
+      "title": "Shy Sunflower",
+      "medium": "Collage",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/shy-sunflower.jpg",
+      "description": ""
+    },
+    {
       "title": "Summer Schwinn",
       "medium": "Collage",
       "year": "2022",
@@ -955,12 +1077,66 @@
   ],
   "artworksAcrylics": [
     {
+      "title": "Angel",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/angel.jpg",
+      "description": ""
+    },
+    {
+      "title": "Angel in a cabinet",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/angel-in-a-cabinet.jpg",
+      "description": ""
+    },
+    {
+      "title": "Art Battle Poster",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/art-batttle-poster-speed-painting.jpg",
+      "description": ""
+    },
+    {
+      "title": "Barn and Sunflowers",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/barn-and-sunflowers.jpg",
+      "description": ""
+    },
+    {
       "title": "Black Rabbit",
       "medium": "Acrylics",
       "year": "",
       "size": "4 x 4\"",
       "sold": false,
       "image": "assets/black-rabbit.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue and White Rabbits",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/blue-and-white-rabbits.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue and White Rabbits 2",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/blue-and-white-rabbits-2.jpg",
       "description": ""
     },
     {
@@ -1072,6 +1248,15 @@
       "description": ""
     },
     {
+      "title": "Martha",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/martha.jpg",
+      "description": ""
+    },
+    {
       "title": "Mary Beth",
       "medium": "Acrylics",
       "year": "",
@@ -1087,6 +1272,15 @@
       "size": "9 x 12\"",
       "sold": false,
       "image": "assets/mexican-chicken-pot-with-cactus.jpg",
+      "description": ""
+    },
+    {
+      "title": "Mexican Still Life",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/mexican-still-life.jpg",
       "description": ""
     },
     {
@@ -1169,70 +1363,54 @@
       "sold": false,
       "image": "assets/valelntine-s-day.jpg",
       "description": ""
+    },
+    {
+      "title": "Van Gogh Rabbit",
+      "medium": "Acrylics",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/van-gogh-rabbit.jpg",
+      "description": ""
     }
   ],
-  "artworksUnsorted": [
+  "artworksOils": [
     {
-      "title": "Angel",
-      "medium": "Acrylics",
+      "title": "Ice Cream Shop",
+      "medium": "Oils",
       "year": "",
-      "size": "",
+      "size": "16 x 20\"",
       "sold": false,
-      "image": "assets/angel.jpg",
+      "image": "assets/ice-cream-shop.jpg",
       "description": ""
     },
     {
-      "title": "Angel in a cabinet",
-      "medium": "Acrylics",
+      "title": "Meeting for Lunch",
+      "medium": "Oils",
+      "year": "",
+      "size": "24 x 42\"",
+      "sold": false,
+      "image": "assets/meeting-for-lunch.jpg",
+      "description": ""
+    },
+    {
+      "title": "Waiting",
+      "medium": "Oils",
       "year": "",
       "size": "",
       "sold": true,
-      "image": "assets/angel-in-a-cabinet.jpg",
+      "image": "assets/waiting.jpg",
       "description": ""
-    },
+    }
+  ],
+  "artworksOthers": [
     {
-      "title": "Art Battle Poster",
-      "medium": "Acrylics",
+      "title": "Baby ShoesUSA",
+      "medium": "Others",
       "year": "",
-      "size": "",
+      "size": "5 x 7\"",
       "sold": false,
-      "image": "assets/art-batttle-poster-speed-painting.jpg",
-      "description": ""
-    },
-    {
-      "title": "Aspens",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/aspens.jpg",
-      "description": ""
-    },
-    {
-      "title": "Aspens watercolor",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/aspenswatercolor.jpg",
-      "description": ""
-    },
-    {
-      "title": "Austin Art Board",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/austin-art-board.jpg",
-      "description": ""
-    },
-    {
-      "title": "Austin Art Board painting",
-      "medium": "",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/austin-art-board-painting.jpg",
+      "image": "assets/baby-shoesusa.jpg",
       "description": ""
     },
     {
@@ -1245,66 +1423,12 @@
       "description": ""
     },
     {
-      "title": "Barn and Sunflowers",
-      "medium": "Acrylics",
+      "title": "Blue Hillside",
+      "medium": "Others",
       "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/barn-and-sunflowers.jpg",
-      "description": ""
-    },
-    {
-      "title": "Bird Nest",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/bird-nest.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blacks Nursery",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
+      "size": "9 x 13\"",
       "sold": false,
-      "image": "assets/blacks-nursery.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blue and White Rabbits",
-      "medium": "Acrylics",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/blue-and-white-rabbits.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blue and White Rabbits 2",
-      "medium": "Acrylics",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/blue-and-white-rabbits-2.jpg",
-      "description": ""
-    },
-    {
-      "title": "Bluebonnet study",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/bluebonnet-study.jpg",
-      "description": ""
-    },
-    {
-      "title": "Bluebonnets",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/bluebonnets.jpg",
+      "image": "assets/blue-hillside.jpg",
       "description": ""
     },
     {
@@ -1326,66 +1450,12 @@
       "description": ""
     },
     {
-      "title": "Dutch Rabbit with Poppies award",
-      "medium": "",
+      "title": "Cat Dreams",
+      "medium": "Others",
       "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/dutch-rabbit-with-poppies-award.jpg",
-      "description": ""
-    },
-    {
-      "title": "Garden Angel",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
+      "size": "10 x 9\"",
       "sold": true,
-      "image": "assets/garden-angel.jpg",
-      "description": ""
-    },
-    {
-      "title": "Garden Virgin",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/garden-virgin.jpg",
-      "description": ""
-    },
-    {
-      "title": "Hailey",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/hailey.jpg",
-      "description": ""
-    },
-    {
-      "title": "Hazel's Portraits at the Peoples Gallery",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/hazel-s-portraits-at-the-peoples-gallery.jpg",
-      "description": ""
-    },
-    {
-      "title": "Hillside 2",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/hillside-2.jpg",
-      "description": ""
-    },
-    {
-      "title": "Houston Zoo",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/houston-zoo.jpg",
+      "image": "assets/cat-dreams.jpg",
       "description": ""
     },
     {
@@ -1398,57 +1468,140 @@
       "description": ""
     },
     {
-      "title": "Iris Garden",
-      "medium": "Watercolors",
+      "title": "Let Me Think About it",
+      "medium": "Others",
       "year": "",
-      "size": "",
+      "size": "5 x 6\"",
       "sold": true,
-      "image": "assets/iris-garden.jpg",
+      "image": "assets/let-me-think-about-it.jpg",
       "description": ""
     },
     {
-      "title": "Kansas Storm",
-      "medium": "Watercolors",
+      "title": "Rabbits in Orange",
+      "medium": "Others",
       "year": "",
       "size": "",
       "sold": true,
-      "image": "assets/kansas-storm.jpg",
+      "image": "assets/rabbits-in-orange.jpg",
       "description": ""
     },
     {
-      "title": "Lavender Festival Poster",
-      "medium": "Watercolors",
+      "title": "Red Head",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/red-head.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sewing Notions",
+      "medium": "Others",
+      "year": "",
+      "size": "8 x 10\"",
+      "sold": false,
+      "image": "assets/sewing-notions.jpg",
+      "description": ""
+    },
+    {
+      "title": "Spider study",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/spider-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sun Flower with Bee",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/sun-flower-with-bee.jpg",
+      "description": ""
+    },
+    {
+      "title": "Tables",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/tables.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Blind Fiddler",
+      "medium": "Others",
+      "year": "",
+      "size": "17 x 22\"",
+      "sold": false,
+      "image": "assets/the-blind-fiddler.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Dress",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 20\"",
+      "sold": false,
+      "image": "assets/the-dress.jpg",
+      "description": ""
+    },
+    {
+      "title": "Toy Singer",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/toy-singer.jpg",
+      "description": ""
+    },
+    {
+      "title": "Whale",
+      "medium": "Others",
+      "year": "",
+      "size": "23 x 8\"",
+      "sold": false,
+      "image": "assets/whale.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wild Flower",
+      "medium": "Others",
+      "year": "",
+      "size": "1 x 3\"",
+      "sold": false,
+      "image": "assets/wild-flower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Winston",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/winston.jpg",
+      "description": ""
+    }
+  ],
+  "artworksUnsorted": [
+    {
+      "title": "Austin Art Board painting",
+      "medium": "",
       "year": "",
       "size": "",
       "sold": false,
-      "image": "assets/lavender-festival-poster.jpg",
+      "image": "assets/austin-art-board-painting.jpg",
       "description": ""
     },
     {
-      "title": "Martha",
-      "medium": "Acrylics",
+      "title": "Dutch Rabbit with Poppies award",
+      "medium": "",
       "year": "",
       "size": "",
-      "sold": true,
-      "image": "assets/martha.jpg",
-      "description": ""
-    },
-    {
-      "title": "Mexican Still Life",
-      "medium": "Acrylics",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/mexican-still-life.jpg",
-      "description": ""
-    },
-    {
-      "title": "Mexico",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/mexico.jpg",
+      "sold": false,
+      "image": "assets/dutch-rabbit-with-poppies-award.jpg",
       "description": ""
     },
     {
@@ -1468,159 +1621,6 @@
       "sold": false,
       "image": "assets/new-orleans-doll-shop.jpg",
       "description": ""
-    },
-    {
-      "title": "Nora in Brown",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/nora-in-brown.jpg",
-      "description": ""
-    },
-    {
-      "title": "Rabbits in Orange",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/rabbits-in-orange.jpg",
-      "description": ""
-    },
-    {
-      "title": "Rabbits in the Grass",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/rabbits-in-the-grass.jpg",
-      "description": ""
-    },
-    {
-      "title": "Red Head",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/red-head.jpg",
-      "description": ""
-    },
-    {
-      "title": "Shells",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/shells.jpg",
-      "description": ""
-    },
-    {
-      "title": "Shy Sunflower",
-      "medium": "Collage",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/shy-sunflower.jpg",
-      "description": ""
-    },
-    {
-      "title": "Spider study",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/spider-study.jpg",
-      "description": ""
-    },
-    {
-      "title": "Still Life with Persimmons",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/still-life-with-persimmons.jpg",
-      "description": ""
-    },
-    {
-      "title": "Sun Flower with Bee",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/sun-flower-with-bee.jpg",
-      "description": ""
-    },
-    {
-      "title": "Sun Flowers at Night",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/sun-flowers-at-night.jpg",
-      "description": ""
-    },
-    {
-      "title": "Tables",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/tables.jpg",
-      "description": ""
-    },
-    {
-      "title": "Toy Singer",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/toy-singer.jpg",
-      "description": ""
-    },
-    {
-      "title": "Tug of War ",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "5 x 7\"",
-      "sold": false,
-      "image": "assets/tug-of-war-nwatercolor.jpg",
-      "description": ""
-    },
-    {
-      "title": "Under the Sea",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/under-the-sea.jpg",
-      "description": ""
-    },
-    {
-      "title": "Van Gogh Rabbit",
-      "medium": "Acrylics",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/van-gogh-rabbit.jpg",
-      "description": ""
-    },
-    {
-      "title": "Wedding Day",
-      "medium": "Watercolors",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/wedding-day.jpg",
-      "description": ""
     }
-  ],
-  "portrait": "assets/helenprofile.jpg",
-  "contactEmail": "helengreen@earthlink.net",
-  "mediums": [
-    "Watercolors",
-    "Collage",
-    "Acrylics",
-    "Oils",
-    "Others"
   ]
 }
