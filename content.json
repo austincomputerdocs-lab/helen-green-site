@@ -1,214 +1,15 @@
 {
-  "artworksOils": [
-    {
-      "title": "Ice Cream Shop",
-      "medium": "Oils",
-      "year": "",
-      "size": "16 x 20\"",
-      "sold": false,
-      "image": "assets/ice-cream-shop.jpg",
-      "description": ""
-    },
-    {
-      "title": "Meeting for Lunch",
-      "medium": "Oils",
-      "year": "",
-      "size": "24 x 42\"",
-      "sold": false,
-      "image": "assets/meeting-for-lunch.jpg",
-      "description": ""
-    },
-    {
-      "title": "Waiting",
-      "medium": "Oils",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/waiting.jpg",
-      "description": ""
-    }
-  ],
-  "artworksOthers": [
-    {
-      "title": "Baby ShoesUSA",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 7\"",
-      "sold": false,
-      "image": "assets/baby-shoesusa.jpg",
-      "description": ""
-    },
-    {
-      "title": "Backyard Relics 1",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": false,
-      "image": "assets/backyard-relics-1.jpg",
-      "description": ""
-    },
-    {
-      "title": "Blue Hillside",
-      "medium": "Others",
-      "year": "",
-      "size": "9 x 13\"",
-      "sold": false,
-      "image": "assets/blue-hillside.jpg",
-      "description": ""
-    },
-    {
-      "title": "Bunnies in the Garden",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/bunnies-in-the-garden.jpg",
-      "description": ""
-    },
-    {
-      "title": "Button Tribute",
-      "medium": "Others",
-      "year": "",
-      "size": "11 x 16.5\"",
-      "sold": false,
-      "image": "assets/button-tribute.jpg",
-      "description": ""
-    },
-    {
-      "title": "Cat Dreams",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 9\"",
-      "sold": true,
-      "image": "assets/cat-dreams.jpg",
-      "description": ""
-    },
-    {
-      "title": "Hula Hoop",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/hula-hoop.jpg",
-      "description": ""
-    },
-    {
-      "title": "Let Me Think About it",
-      "medium": "Others",
-      "year": "",
-      "size": "5 x 6\"",
-      "sold": true,
-      "image": "assets/let-me-think-about-it.jpg",
-      "description": ""
-    },
-    {
-      "title": "Rabbits in Orange",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/rabbits-in-orange.jpg",
-      "description": ""
-    },
-    {
-      "title": "Red Head",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/red-head.jpg",
-      "description": ""
-    },
-    {
-      "title": "Sewing Notions",
-      "medium": "Others",
-      "year": "",
-      "size": "8 x 10\"",
-      "sold": false,
-      "image": "assets/sewing-notions.jpg",
-      "description": ""
-    },
-    {
-      "title": "Spider study",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/spider-study.jpg",
-      "description": ""
-    },
-    {
-      "title": "Sun Flower with Bee",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/sun-flower-with-bee.jpg",
-      "description": ""
-    },
-    {
-      "title": "Tables",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/tables.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Blind Fiddler",
-      "medium": "Others",
-      "year": "",
-      "size": "17 x 22\"",
-      "sold": false,
-      "image": "assets/the-blind-fiddler.jpg",
-      "description": ""
-    },
-    {
-      "title": "The Dress",
-      "medium": "Others",
-      "year": "",
-      "size": "10 x 20\"",
-      "sold": false,
-      "image": "assets/the-dress.jpg",
-      "description": ""
-    },
-    {
-      "title": "Toy Singer",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/toy-singer.jpg",
-      "description": ""
-    },
-    {
-      "title": "Whale",
-      "medium": "Others",
-      "year": "",
-      "size": "23 x 8\"",
-      "sold": false,
-      "image": "assets/whale.jpg",
-      "description": ""
-    },
-    {
-      "title": "Wild Flower",
-      "medium": "Others",
-      "year": "",
-      "size": "1 x 3\"",
-      "sold": false,
-      "image": "assets/wild-flower.jpg",
-      "description": ""
-    },
-    {
-      "title": "Winston",
-      "medium": "Others",
-      "year": "",
-      "size": "",
-      "sold": true,
-      "image": "assets/winston.jpg",
-      "description": ""
-    }
+  "artistName": "Helen Faythe Green",
+  "tagline": "Paintings & mixed media",
+  "contactEmail": "helengreen@earthlink.net",
+  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
+  "portrait": "assets/helenprofile.jpg",
+  "mediums": [
+    "Watercolors",
+    "Collage",
+    "Acrylics",
+    "Oils",
+    "Others"
   ],
   "artworksWatercolors": [
     {
@@ -1022,9 +823,6 @@
       "description": ""
     }
   ],
-  "bio": "Helen Green has painted from her studio since 1998, working in pastel, oil, watercolor and collage. Her subjects are the small wonders of country life — a hare in tall grass, a bicycle against a fence, flags strung across Main Street.",
-  "tagline": "Paintings & mixed media",
-  "artistName": "Helen Faythe Green",
   "artworksCollage": [
     {
       "title": "A Murmuration",
@@ -1576,7 +1374,45 @@
       "description": ""
     }
   ],
-  "artworksUnsorted": [
+  "artworksOils": [
+    {
+      "title": "Ice Cream Shop",
+      "medium": "Oils",
+      "year": "",
+      "size": "16 x 20\"",
+      "sold": false,
+      "image": "assets/ice-cream-shop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Meeting for Lunch",
+      "medium": "Oils",
+      "year": "",
+      "size": "24 x 42\"",
+      "sold": false,
+      "image": "assets/meeting-for-lunch.jpg",
+      "description": ""
+    },
+    {
+      "title": "New Orleans Doll Shop",
+      "medium": "Oils",
+      "year": "",
+      "size": "18 x 27\"",
+      "sold": false,
+      "image": "assets/new-orleans-doll-shop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Waiting",
+      "medium": "Oils",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/waiting.jpg",
+      "description": ""
+    }
+  ],
+  "artworksOthers": [
     {
       "title": "Austin Art Board painting",
       "medium": "Others",
@@ -1584,6 +1420,60 @@
       "size": "",
       "sold": false,
       "image": "assets/austin-art-board-painting.jpg",
+      "description": ""
+    },
+    {
+      "title": "Baby ShoesUSA",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 7\"",
+      "sold": false,
+      "image": "assets/baby-shoesusa.jpg",
+      "description": ""
+    },
+    {
+      "title": "Backyard Relics 1",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": false,
+      "image": "assets/backyard-relics-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Blue Hillside",
+      "medium": "Others",
+      "year": "",
+      "size": "9 x 13\"",
+      "sold": false,
+      "image": "assets/blue-hillside.jpg",
+      "description": ""
+    },
+    {
+      "title": "Bunnies in the Garden",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/bunnies-in-the-garden.jpg",
+      "description": ""
+    },
+    {
+      "title": "Button Tribute",
+      "medium": "Others",
+      "year": "",
+      "size": "11 x 16.5\"",
+      "sold": false,
+      "image": "assets/button-tribute.jpg",
+      "description": ""
+    },
+    {
+      "title": "Cat Dreams",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 9\"",
+      "sold": true,
+      "image": "assets/cat-dreams.jpg",
       "description": ""
     },
     {
@@ -1596,6 +1486,24 @@
       "description": ""
     },
     {
+      "title": "Hula Hoop",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/hula-hoop.jpg",
+      "description": ""
+    },
+    {
+      "title": "Let Me Think About it",
+      "medium": "Others",
+      "year": "",
+      "size": "5 x 6\"",
+      "sold": true,
+      "image": "assets/let-me-think-about-it.jpg",
+      "description": ""
+    },
+    {
       "title": "Nest in Black and gold",
       "medium": "Others",
       "year": "",
@@ -1605,22 +1513,112 @@
       "description": ""
     },
     {
-      "title": "New Orleans Doll Shop",
-      "medium": "Oils",
+      "title": "Rabbits in Orange",
+      "medium": "Others",
       "year": "",
-      "size": "18 x 27\"",
+      "size": "",
+      "sold": true,
+      "image": "assets/rabbits-in-orange.jpg",
+      "description": ""
+    },
+    {
+      "title": "Red Head",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/red-head.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sewing Notions",
+      "medium": "Others",
+      "year": "",
+      "size": "8 x 10\"",
       "sold": false,
-      "image": "assets/new-orleans-doll-shop.jpg",
+      "image": "assets/sewing-notions.jpg",
+      "description": ""
+    },
+    {
+      "title": "Spider study",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/spider-study.jpg",
+      "description": ""
+    },
+    {
+      "title": "Sun Flower with Bee",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/sun-flower-with-bee.jpg",
+      "description": ""
+    },
+    {
+      "title": "Tables",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/tables.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Blind Fiddler",
+      "medium": "Others",
+      "year": "",
+      "size": "17 x 22\"",
+      "sold": false,
+      "image": "assets/the-blind-fiddler.jpg",
+      "description": ""
+    },
+    {
+      "title": "The Dress",
+      "medium": "Others",
+      "year": "",
+      "size": "10 x 20\"",
+      "sold": false,
+      "image": "assets/the-dress.jpg",
+      "description": ""
+    },
+    {
+      "title": "Toy Singer",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/toy-singer.jpg",
+      "description": ""
+    },
+    {
+      "title": "Whale",
+      "medium": "Others",
+      "year": "",
+      "size": "23 x 8\"",
+      "sold": false,
+      "image": "assets/whale.jpg",
+      "description": ""
+    },
+    {
+      "title": "Wild Flower",
+      "medium": "Others",
+      "year": "",
+      "size": "1 x 3\"",
+      "sold": false,
+      "image": "assets/wild-flower.jpg",
+      "description": ""
+    },
+    {
+      "title": "Winston",
+      "medium": "Others",
+      "year": "",
+      "size": "",
+      "sold": true,
+      "image": "assets/winston.jpg",
       "description": ""
     }
-  ],
-  "portrait": "assets/helenprofile.jpg",
-  "contactEmail": "helengreen@earthlink.net",
-  "mediums": [
-    "Watercolors",
-    "Collage",
-    "Acrylics",
-    "Oils",
-    "Others"
   ]
 }
