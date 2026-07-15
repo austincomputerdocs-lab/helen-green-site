@@ -69,18 +69,3 @@ collections:
             collapsed: true
             minimize_collapsed: true
             fields: *artwork_fields
-          - label: "Unsorted — needs a medium assigned"
-            name: "artworksUnsorted"
-            widget: "list"
-            label_singular: "Artwork"
-            summary: "{{fields.title}}"
-            collapsed: true
-            minimize_collapsed: true
-            fields:
-              - { label: "Title",       name: "title",       widget: "string" }
-              - { label: "Medium (pick one, then move this entry into its matching section above)", name: "medium", widget: "select", options: ["", "Watercolors", "Collage", "Acrylics", "Oils", "Others"], required: false }
-              - { label: "Year",        name: "year",        widget: "string", required: false }
-              - { label: "Size",        name: "size",        widget: "string", required: false }
-              - { label: "Sold",        name: "sold",        widget: "boolean", required: false, default: false }
-              - { label: "Photo",       name: "image",       widget: "image",  required: false }
-              - { label: "Description", name: "description", widget: "text",   required: false }
